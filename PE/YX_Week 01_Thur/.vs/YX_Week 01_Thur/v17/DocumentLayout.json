@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\yx5186\\source\\repos\\YX_Week 01_Thur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3A4CF-5FE1-4DCB-9EE2-B0760A19445B}|YX_Week 01_Thur\\YX_Week 01_Thur.csproj|d:\\profiles\\yx5186\\source\\repos\\yx_week 01_thur\\yx_week 01_thur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3A4CF-5FE1-4DCB-9EE2-B0760A19445B}|YX_Week 01_Thur\\YX_Week 01_Thur.csproj|solutionrelative:yx_week 01_thur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\yx5186\\source\\repos\\YX_Week 01_Thur\\YX_Week 01_Thur\\Program.cs",
+              "RelativeDocumentMoniker": "YX_Week 01_Thur\\Program.cs",
+              "ToolTip": "D:\\Profiles\\yx5186\\source\\repos\\YX_Week 01_Thur\\YX_Week 01_Thur\\Program.cs",
+              "RelativeToolTip": "YX_Week 01_Thur\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T19:50:50.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

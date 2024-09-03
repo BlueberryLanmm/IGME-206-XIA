@@ -1,0 +1,14 @@
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\bin\Debug\net8.0\YX Tue Week 1.exe
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\bin\Debug\net8.0\YX Tue Week 1.deps.json
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\bin\Debug\net8.0\YX Tue Week 1.runtimeconfig.json
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\bin\Debug\net8.0\YX Tue Week 1.dll
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\bin\Debug\net8.0\YX Tue Week 1.pdb
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.AssemblyInfoInputs.cache
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.AssemblyInfo.cs
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.csproj.CoreCompileInputs.cache
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.dll
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\refint\YX Tue Week 1.dll
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.pdb
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\YX Tue Week 1.genruntimeconfig.cache
+D:\Profiles\yx5186\source\repos\YX Tue Week 1\YX Tue Week 1\obj\Debug\net8.0\ref\YX Tue Week 1.dll
