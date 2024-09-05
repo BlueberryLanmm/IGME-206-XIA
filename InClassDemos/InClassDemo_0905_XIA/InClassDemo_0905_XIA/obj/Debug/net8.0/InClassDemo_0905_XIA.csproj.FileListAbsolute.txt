@@ -1,0 +1,15 @@
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\bin\Debug\net8.0\InClassDemo_0905_XIA.exe
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\bin\Debug\net8.0\InClassDemo_0905_XIA.deps.json
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\bin\Debug\net8.0\InClassDemo_0905_XIA.runtimeconfig.json
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\bin\Debug\net8.0\InClassDemo_0905_XIA.dll
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\bin\Debug\net8.0\InClassDemo_0905_XIA.pdb
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.AssemblyInfoInputs.cache
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.AssemblyInfo.cs
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.csproj.CoreCompileInputs.cache
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.sourcelink.json
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.dll
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\refint\InClassDemo_0905_XIA.dll
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.pdb
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\InClassDemo_0905_XIA.genruntimeconfig.cache
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\InClassDemos\InClassDemo_0905_XIA\InClassDemo_0905_XIA\obj\Debug\net8.0\ref\InClassDemo_0905_XIA.dll
