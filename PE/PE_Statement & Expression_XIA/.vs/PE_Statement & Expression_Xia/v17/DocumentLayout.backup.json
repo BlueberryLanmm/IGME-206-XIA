@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Statement \u0026 Expression_XIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50FE7166-EFCE-4A54-87BC-8D759AFF67FF}|PE_Statement \u0026 Expression_Xia\\PE_Statement \u0026 Expression_Xia.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_statement \u0026 expression_xia\\pe_statement \u0026 expression_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FE7166-EFCE-4A54-87BC-8D759AFF67FF}|PE_Statement \u0026 Expression_Xia\\PE_Statement \u0026 Expression_Xia.csproj|solutionrelative:pe_statement \u0026 expression_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Statement \u0026 Expression_XIA\\PE_Statement \u0026 Expression_Xia\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Statement \u0026 Expression_Xia\\Program.cs",
+              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Statement \u0026 Expression_XIA\\PE_Statement \u0026 Expression_Xia\\Program.cs",
+              "RelativeToolTip": "PE_Statement \u0026 Expression_Xia\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwDkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:23:59.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
