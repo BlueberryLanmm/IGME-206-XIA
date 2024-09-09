@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Data Types \u0026 Variables_XIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0D76FB-5CF4-4124-81CA-CDC629A34DFD}|PE_Data Types \u0026 Variables_XIA\\PE_Data Types \u0026 Variables_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_data types \u0026 variables_xia\\pe_data types \u0026 variables_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0D76FB-5CF4-4124-81CA-CDC629A34DFD}|PE_Data Types \u0026 Variables_XIA\\PE_Data Types \u0026 Variables_XIA.csproj|solutionrelative:pe_data types \u0026 variables_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Data Types \u0026 Variables_XIA\\PE_Data Types \u0026 Variables_XIA\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Data Types \u0026 Variables_XIA\\Program.cs",
+              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Data Types \u0026 Variables_XIA\\PE_Data Types \u0026 Variables_XIA\\Program.cs",
+              "RelativeToolTip": "PE_Data Types \u0026 Variables_XIA\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T03:33:37.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
