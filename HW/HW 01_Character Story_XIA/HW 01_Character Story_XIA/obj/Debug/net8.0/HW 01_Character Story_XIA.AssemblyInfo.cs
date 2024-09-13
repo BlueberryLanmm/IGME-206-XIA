@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW 01_Character Story_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b7a79e5a4959d97cde8961664f6040f088499bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e6eb4287312e07c3edafe64f7fe39b7897059e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW 01_Character Story_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW 01_Character Story_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

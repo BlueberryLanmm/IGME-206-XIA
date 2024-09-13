@@ -13,7 +13,7 @@
             int currentStamina = MaxStamina;
             int fishTimes = 0;
             double fishOutcome = 0;
-
+            //The following variables to be calculated in character actions
             int finalRemainStamina;
             int totalFishTimes;
 
@@ -60,7 +60,7 @@
             Console.WriteLine();    //Add a blank line
 
             //the character catches a 2.8 lbs fish in his second fishing
-            Console.WriteLine("Seconde try:");
+            Console.WriteLine("Second try:");
             Console.WriteLine(characterName + " costs " + StaminaCostPerFish + " stamina and catches a " + 2.8 + " lbs fish!! ");
             //calculate and print the stats changes for the first fishing
             fishTimes = fishTimes + 1;
@@ -68,7 +68,11 @@
             fishOutcome = fishOutcome + 2.8;
             Console.Write("He has fished " + fishTimes + " times today. ");
             Console.WriteLine("His remaining stamina is " + currentStamina + ".");
-            Console.WriteLine("There is not enough stamina for more fishing.");
+            Console.WriteLine();    //Add a blank line
+
+            //Print the outcome of 2 fishing.
+            Console.Write("There is not enough stamina for more fishing. ");
+            Console.WriteLine("The total outcome for today is " + fishOutcome + " lbs!");
             Console.WriteLine();    //Add a blank line
 
 
