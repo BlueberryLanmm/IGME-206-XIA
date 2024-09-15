@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE_String Formatting_XIA", "PE_String Formatting_XIA\PE_String Formatting_XIA.csproj", "{A1FCF741-97BF-4C23-8CC4-F43260889CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1FCF741-97BF-4C23-8CC4-F43260889CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FCF741-97BF-4C23-8CC4-F43260889CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FCF741-97BF-4C23-8CC4-F43260889CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FCF741-97BF-4C23-8CC4-F43260889CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B0B964-04D7-4A76-9033-48ABB0AE5B21}
+	EndGlobalSection
+EndGlobal
