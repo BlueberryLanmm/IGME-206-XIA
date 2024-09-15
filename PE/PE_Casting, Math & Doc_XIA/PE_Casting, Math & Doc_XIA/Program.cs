@@ -6,18 +6,18 @@
         static void Main(string[] args)
         {
             //Declare the varibles
-            string playerName = "Yuxuan";
+            string playerName;
 
-            int totalGameHour = 274;
-            int pointOneX = -13;
-            int pointOneY = 51;
-            int pointTwoX = 17;
-            int pointTwoY = 28;
+            int totalGameHour;
+            int pointOneX;
+            int pointOneY;
+            int pointTwoX;
+            int pointTwoY;
 
-            double numberA = 7.9;
-            double numberB = 2.25;
-            double degree = 60;
-            double radianDegree = degree * Math.PI / 180;
+            double numberA;
+            double numberB;
+            double degree;
+            double radianDegree;
 
             //Declare the string variable to store user input
             string userInput;
