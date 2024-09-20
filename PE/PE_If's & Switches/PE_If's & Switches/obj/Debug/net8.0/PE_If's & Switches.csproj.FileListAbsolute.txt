@@ -1,0 +1,15 @@
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\bin\Debug\net8.0\PE_If's & Switches.exe
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\bin\Debug\net8.0\PE_If's & Switches.deps.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\bin\Debug\net8.0\PE_If's & Switches.runtimeconfig.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\bin\Debug\net8.0\PE_If's & Switches.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\bin\Debug\net8.0\PE_If's & Switches.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.AssemblyInfoInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.AssemblyInfo.cs
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.csproj.CoreCompileInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.sourcelink.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\refint\PE_If's & Switches.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\PE_If's & Switches.genruntimeconfig.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_If's & Switches\PE_If's & Switches\obj\Debug\net8.0\ref\PE_If's & Switches.dll
