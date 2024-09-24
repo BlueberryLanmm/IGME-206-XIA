@@ -15,7 +15,7 @@
             double totalPlayTime1;
 
             double winRate1;
-            double averagePlayTime1;
+            int averagePlayTime1;
 
             //variables for player 2 stats
             string name2;
@@ -25,7 +25,7 @@
             double totalPlayTime2;
 
             double winRate2;
-            double averagePlayTime2;
+            int averagePlayTime2;
 
             //public variables for validity check
             bool isValid;
@@ -286,10 +286,10 @@
             //calculate average time and win rate
             //player 1
             winRate1 = (double)numberOfWin1 / numberOfPlay1;
-            averagePlayTime1 = totalPlayTime1 / numberOfPlay1 * 60;
+            averagePlayTime1 = (int)(totalPlayTime1 / numberOfPlay1 * 60);
             //player 2
             winRate2 = (double)numberOfWin2 / numberOfPlay2;
-            averagePlayTime2 = totalPlayTime2 / numberOfPlay2 * 60;
+            averagePlayTime2 = (int)(totalPlayTime2 / numberOfPlay2 * 60);
 
             //print out the table
             Console.WriteLine("\nSummery Table:");
@@ -306,7 +306,22 @@
             //win rate
             Console.WriteLine("\tWin Rate\t{0:P3}\t\t{1:P3}",       winRate1,           winRate2);
             //average game time in minutes
-            Console.WriteLine("\tAvg Time (m)\t{0:F0}\t\t{1:F0}",   averagePlayTime1,   averagePlayTime2);
+            Console.WriteLine("\tAvg Time (m)\t{0}\t\t{1}",         averagePlayTime1,   averagePlayTime2);
+
+            //compare the 2 players' win rate and print out
+            if (winRate1 > winRate2)
+            {
+                Console.WriteLine("\n{0} has a better win rate!", name1);
+            }
+            else if (winRate1 < winRate2)
+            {
+                Console.WriteLine("\n{0} has a better win rate!", name2);
+            }
+            else
+            {
+                Console.WriteLine("\nIt's a draw!");
+            }
+
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW 2_Stats Analysis_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea0b13ade4e6137946140133ba9407f6d223ea9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+862be9a35c235fcd373df397625e57dd182aeb25")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW 2_Stats Analysis_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW 2_Stats Analysis_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
