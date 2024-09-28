@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4904B2F8-032B-46A4-9144-C9681895C932}|PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_exception \u0026 tryparse_xia\\pe_exception \u0026 tryparse_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4904B2F8-032B-46A4-9144-C9681895C932}|PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA.csproj|solutionrelative:pe_exception \u0026 tryparse_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Exception \u0026 TryParse_XIA\\Program.cs",
+              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA\\Program.cs",
+              "RelativeToolTip": "PE_Exception \u0026 TryParse_XIA\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:19:13.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
