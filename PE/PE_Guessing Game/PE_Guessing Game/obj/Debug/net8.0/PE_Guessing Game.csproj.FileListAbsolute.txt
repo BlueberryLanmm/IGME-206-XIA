@@ -1,0 +1,15 @@
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\bin\Debug\net8.0\PE_Guessing Game.exe
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\bin\Debug\net8.0\PE_Guessing Game.deps.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\bin\Debug\net8.0\PE_Guessing Game.runtimeconfig.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\bin\Debug\net8.0\PE_Guessing Game.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\bin\Debug\net8.0\PE_Guessing Game.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.AssemblyInfoInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.AssemblyInfo.cs
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.csproj.CoreCompileInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.sourcelink.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\refint\PE_Guessing Game.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\PE_Guessing Game.genruntimeconfig.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Guessing Game\PE_Guessing Game\obj\Debug\net8.0\ref\PE_Guessing Game.dll
