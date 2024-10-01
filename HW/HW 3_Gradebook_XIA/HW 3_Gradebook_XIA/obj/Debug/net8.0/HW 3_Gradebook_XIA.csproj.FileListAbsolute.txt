@@ -1,0 +1,15 @@
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\bin\Debug\net8.0\HW 3_Gradebook_XIA.exe
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\bin\Debug\net8.0\HW 3_Gradebook_XIA.deps.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\bin\Debug\net8.0\HW 3_Gradebook_XIA.runtimeconfig.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\bin\Debug\net8.0\HW 3_Gradebook_XIA.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\bin\Debug\net8.0\HW 3_Gradebook_XIA.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.AssemblyInfoInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.AssemblyInfo.cs
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.csproj.CoreCompileInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.sourcelink.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\refint\HW 3_Gradebook_XIA.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\HW 3_Gradebook_XIA.genruntimeconfig.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 3_Gradebook_XIA\HW 3_Gradebook_XIA\obj\Debug\net8.0\ref\HW 3_Gradebook_XIA.dll
