@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71C9D485-EF3A-4AC0-A735-48115BC5CF0D}|PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_arrays of objects_xia\\pe_arrays of objects_xia\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C9D485-EF3A-4AC0-A735-48115BC5CF0D}|PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA.csproj|solutionrelative:pe_arrays of objects_xia\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C9D485-EF3A-4AC0-A735-48115BC5CF0D}|PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_arrays of objects_xia\\pe_arrays of objects_xia\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C9D485-EF3A-4AC0-A735-48115BC5CF0D}|PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA.csproj|solutionrelative:pe_arrays of objects_xia\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C9D485-EF3A-4AC0-A735-48115BC5CF0D}|PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_arrays of objects_xia\\pe_arrays of objects_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C9D485-EF3A-4AC0-A735-48115BC5CF0D}|PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA.csproj|solutionrelative:pe_arrays of objects_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA\\Deck.cs",
+              "RelativeDocumentMoniker": "PE_Arrays of Objects_XIA\\Deck.cs",
+              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA\\Deck.cs",
+              "RelativeToolTip": "PE_Arrays of Objects_XIA\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:18:50.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA\\Card.cs",
+              "RelativeDocumentMoniker": "PE_Arrays of Objects_XIA\\Card.cs",
+              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA\\Card.cs",
+              "RelativeToolTip": "PE_Arrays of Objects_XIA\\Card.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwCUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:05:35.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Arrays of Objects_XIA\\Program.cs",
+              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Arrays of Objects_XIA\\PE_Arrays of Objects_XIA\\Program.cs",
+              "RelativeToolTip": "PE_Arrays of Objects_XIA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:01:27.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
