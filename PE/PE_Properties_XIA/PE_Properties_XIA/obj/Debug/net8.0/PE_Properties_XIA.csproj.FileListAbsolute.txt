@@ -1,0 +1,15 @@
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\bin\Debug\net8.0\PE_Properties_XIA.exe
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\bin\Debug\net8.0\PE_Properties_XIA.deps.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\bin\Debug\net8.0\PE_Properties_XIA.runtimeconfig.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\bin\Debug\net8.0\PE_Properties_XIA.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\bin\Debug\net8.0\PE_Properties_XIA.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.AssemblyInfoInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.AssemblyInfo.cs
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.csproj.CoreCompileInputs.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.sourcelink.json
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\refint\PE_Properties_XIA.dll
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.pdb
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\PE_Properties_XIA.genruntimeconfig.cache
+H:\1_Rochester Institute of Technology\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\PE\PE_Properties_XIA\PE_Properties_XIA\obj\Debug\net8.0\ref\PE_Properties_XIA.dll
