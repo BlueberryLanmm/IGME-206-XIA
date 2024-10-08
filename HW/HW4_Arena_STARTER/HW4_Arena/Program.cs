@@ -5,12 +5,12 @@
  * Write-up: https://docs.google.com/document/d/15Rl0oXwNXdGze8p5HcrZ8n4y78oiubW5pbkJei2YTPI/edit?usp=sharing
  *
  * Primary upgrades:
- *  1. 
- *  2.
+ *  1. Random Enemy placement
+ *  2. Enemy Customization
  *  
  * Optional extra upgrades:
- *  3.
- *  4.
+ *  3. Custumize Console Interface
+ *  4. Combat Randomness
  *  
  * Known Bugs:
  * 
