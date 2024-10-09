@@ -13,10 +13,13 @@
  *  4. Combat Randomness
  *  
  * Known Bugs:
+ * No known bugs.
  * 
  * Other notes:
  * 
  */
+using System.Reflection.Metadata;
+
 namespace HW4_Arena
 {
     /// <summary>
@@ -61,7 +64,7 @@ namespace HW4_Arena
         // TODO: It's okay to tweak these numbers a bit to balance your game and/or add new ones.
         // (But don't delete what is here. Main needs some of them!)
         const int EnemySpacing = 6;
-        const int MaxPoints = 10;
+        const int MaxPoints = 50;
         const int HealthMult = 5;
         const int DamageMult = 5;
         const int EnemyAttack = 5;
@@ -222,9 +225,129 @@ namespace HW4_Arena
         {
             // TODO: Implement the Fight method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            return 0; // replace this. it's just so the starter code compiles.
+
+            //A random number generator for enemy customization and combat randomness
+            Random rng = new Random();
+
+            //Customized enemy information
+            double[] enemyHealthMult = {0.5, 0.75, 1.0, 1.25, 1.5};
+            string[] enemyName = { "Bulbasaur", "Charmander", "Cubone", "Eevee", "Poliwhirl" };
+
+            //An array for a randomized extra damage multiplier
+            double[] randDamageMult = { 0.8, 0.9, 1.0, 1.1, 1.2 };
+            //Store the actual damage made temporarily
+            int realDamage;
+
+            //the current health of encountered enemy
+            int enemyHealth = (int)
+                (EnemyMaxHealth *
+                enemyHealthMult[rng.Next(enemyHealthMult.Length)]);
+
+            //the current enemy
+            string currentEnemy = enemyName[rng.Next(enemyName.Length)];
+
+
+            //Print the alert of entering a conmbat
+            Console.WriteLine($"An angry {currentEnemy} attacks you!");
+
+            do
+            {
+                //Print our the current health of player and enemy
+                Console.WriteLine(
+                    "Your current health is {0}, the {1}'s health is {2}",
+                    stats[Health],
+                    currentEnemy,
+                    enemyHealth);
+
+                //Prompt the use for action input and check the result
+                switch (SmartConsole.GetPromptedInput(
+                    "\nWhat would you like to do? Attack/Run >"))
+                {
+                    case "Attack":
+                        //Calculate the real damage dealed by the player
+                        realDamage = (int)
+                            (stats[Strength] * DamageMult * 
+                            randDamageMult[rng.Next(randDamageMult.Length)]);
+                        //Print damage information and calculate health points
+                        Console.WriteLine("You swing at the {0} doing {1} damage.",
+                            currentEnemy,
+                            realDamage);
+                        enemyHealth -= realDamage;
+
+                        //Check if the enemy's attack misses
+                        //If it does not miss
+                        if (rng.Next(100) + 1 > stats[Dexterity])
+                        {
+                            //Calculate the real damage dealed by the enemy
+                            realDamage = (int)
+                                (EnemyAttack * 
+                                randDamageMult[rng.Next(randDamageMult.Length)]);
+                            //Print damage information and calculate health points
+                            Console.WriteLine("The {0} charges at you for {1} damage!",
+                                currentEnemy,
+                                realDamage);
+                            stats[Health] -= realDamage;
+                        }
+                        //If it misses
+                        else
+                        {
+                            Console.WriteLine(
+                                $"You successfully dodged the {currentEnemy}'s attack!");
+                        }
+
+                        break;
+
+                    case "Run":
+                        Console.WriteLine("You retreat to the starting area of the arena to heal up.");
+                        return Run;
+
+                    //If the player input invalid information
+                    default:
+                        //Apply the enemy attack calculation in case "Attack",
+                        //but do not allow the player to dodge it.
+
+                        //Print the attacked information
+                        Console.WriteLine("Command not recognized. Oh no! LOOK OUT!!");
+
+                        //Calculate the real damage dealed by the enemy
+                        realDamage = (int)
+                            (EnemyAttack *
+                            randDamageMult[rng.Next(randDamageMult.Length)]);
+                        //Print damage information and calculate health points
+                        Console.WriteLine("The {0} charges at you for {1} damage!",
+                            currentEnemy,
+                            realDamage);
+                        stats[Health] -= realDamage;
+
+                        break;
+                }
+            }
+            while (enemyHealth > 0 && stats[Health] > 0);
+
+
+            //After exiting the loop, check the health point and return the result.
+            if (stats[Health] < 0)
+            {
+                //if the player dies and the enemy dies
+                if (enemyHealth < 0)
+                {
+                    return Draw;
+                }
+                //if the player dies and the enemy lives
+                else
+                {
+                    return Lose;
+                }
+            }
+            //if the player lives
+            else
+            {
+                return Win;
+            }
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
+
 
         /// <summary>
         /// Get the player's name & stats. Stats are loaded into the provided array and
@@ -235,10 +358,56 @@ namespace HW4_Arena
         private static string GetPlayerInfo(int[] statsArray)
         {
             // TODO: Implement the GetPlayerInfo method
-            // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            return "???"; // replace this. it's just so the starter code compiles.
+            // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            //A string to store name temporarily before returning
+            string name;
+            //A string array to store names of stats that need attributing points
+            string[] statsName = {"Strength", "Dexterity", "Constitution"};
+
+            //Calculate how many points are left
+            int leftPoints = MaxPoints;
+
+            //Print the welcom info and prompt name input
+            name = SmartConsole.GetPromptedInput("Welcome, please enter your name: >");
+
+            //Prompt stats input
+            Console.WriteLine(
+                $"\nHello {name}, I'll need a bit more information from you before we can start.");
+            Console.WriteLine(
+                $"You have {MaxPoints} points to build your character and three attributes to allocate them to.");
+
+            for (int i = 0; i < statsName.Length; i++)
+            {
+                //Use GetValidIntergerInput to prompt stat input.
+                //The max value is calculated by leftPoints minus number of left stats,
+                //to make sure every left stat has a minimum 1 point.
+                statsArray[i] = SmartConsole.GetValidIntegerInput(
+                        $"\nHow many points would you like to allocate to {statsName[i]}? >",
+                        1,
+                        leftPoints - statsName.Length + (i + 1));
+
+                //calculate current left points
+                leftPoints -= statsArray[i];
+
+                //Print information of left points
+                if (i == Constitution)
+                {
+                    Console.WriteLine($"You left {leftPoints} points unused.\n");
+                }
+                else
+                {
+                    Console.WriteLine($"You have {leftPoints} points remaining.");
+                }
+            }
+
+            statsArray[Health] = statsArray[Constitution] * HealthMult;
+
+            return name;
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
+
 
         /// <summary>
         /// Given a reference to a 2d array variable (that will be null to start):
@@ -259,7 +428,169 @@ namespace HW4_Arena
 
             // TODO: Implement the BuildArena method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            char[,] arena = null; // replace this. it's just so the starter code compiles.
+
+            //Store the width and height temporarily
+            int width;
+            int height;
+
+            //Store userInput temporarily
+            string userInput;
+
+            //The arena to return
+            char[,] arena;
+
+            //Mark if the enemy positions are random
+            bool isRandom;
+
+            //Random number generator for randomly placed enemies.
+            Random rng = new Random();
+
+
+            //Prompt for valid width and height input
+            width = SmartConsole.GetValidIntegerInput(
+                "How wide should the arena be? (Enter a value from 10 to 50) >",
+                10, 50);
+            height = SmartConsole.GetValidIntegerInput(
+                "How tall should the arena be? (Enter a value from 10 to 50) >",
+                10, 50);
+
+            
+            //Ask the user if they would like randomly placed enemies
+            do
+            {
+                userInput = SmartConsole.GetPromptedInput(
+                    "\nDo you want the enemies to be randomly placed? <y>/<n>? >");
+
+                //If yes, generate a random enemy number and break the loop
+                if (userInput == "y")
+                {
+                    isRandom = true;
+                    numEnemies = rng.Next(1, 11);
+                    break;
+                }
+                //If no, break the loop
+                else if (userInput == "n")
+                {
+                    isRandom = false;
+                    break;
+                }
+                //Prompt again if input is invalid
+                else
+                {
+                    Console.WriteLine("Invalid input. Please try again.");
+                }
+            }
+            while (true);
+
+
+            //Prompt for customizing the arena's color
+            do
+            {
+                userInput = SmartConsole.GetPromptedInput(
+                    "\nWhat color is the arena? " +
+                    "\n\t[Y]ellow " +
+                    "\n\t[R]ed" +
+                    "\n\t[G]reen" +
+                    "\n\t[B]lue" +
+                    "\n\t[D]efault" +
+                    "\n >").
+                    ToLower();
+
+                switch (userInput)
+                {
+                    case "y":
+                        Console.BackgroundColor = ConsoleColor.Yellow;
+                        break;
+                    case "r":
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        break;
+                    case "g":
+                        Console.BackgroundColor = ConsoleColor.DarkGreen;
+                        break;
+                    case "b":
+                        Console.BackgroundColor = ConsoleColor.DarkBlue;
+                        break;
+                    case "d":
+                        break;
+                    default:
+                        Console.WriteLine("That's not a choice. Choose again!");
+                        break;
+                }
+            }
+            while (
+            userInput != "y" &&
+            userInput != "r" &&
+            userInput != "b" &&
+            userInput != "g" &&
+            userInput != "d");
+
+
+            //Initialize the arena
+            arena = new char[height, width];
+
+            //Determine character in every position
+            for (int i = 0; i < arena.GetLength(0); i++)
+            {
+                for (int j = 0; j < arena.GetLength(1); j++)
+                {
+                    //Wall
+                    if (i == 0 || i == arena.GetLength(0) - 1 ||
+                        j == 0 || j == arena.GetLength(1) - 1)
+                    {
+                        arena[i, j] = Wall;
+                    }
+                    //Player start
+                    else if(i == 1 && j == 1)
+                    {
+                        arena[i, j] = PlayerStart;
+                    }
+                    //Exit
+                    else if(
+                        i == arena.GetLength(0) - 2 && 
+                        j == arena.GetLength(1) - 2)
+                    {
+                        arena[i, j] = Exit;
+                    }
+                    //Evenly placed enemy
+                    else if( 
+                        isRandom == false && 
+                        i != 0 && i % EnemySpacing == 0 &&
+                        j != 0 && j % EnemySpacing == 0)
+                    {
+                        arena[i, j] = Enemy;
+                        numEnemies++;
+                    }
+                    //Empty
+                    else
+                    {
+                        arena[i, j] = Empty;
+                    }
+                }
+            }
+
+            //If enemies positons are random,
+            //replace some empty space with enemies.
+            if (isRandom == true)
+            {
+                for (int i = 0; i < numEnemies; i++)
+                {
+                    //randomize a position
+                    int column = rng.Next(width);
+                    int row = rng.Next(height);
+
+                    //If it's empty, replace it
+                    if (arena[row, column] == Empty)
+                    {
+                        arena[row, column] = Enemy;
+                    }
+                    //If it's not, reduce the count
+                    else
+                    {
+                        i--;
+                    }
+                }
+            }
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
             // All done
@@ -276,6 +607,51 @@ namespace HW4_Arena
         {
             // TODO: Implement the PrintArena method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            for (int i = 0; i < arena.GetLength(0); i++)
+            {
+                for (int j = 0; j < arena.GetLength(1); j++)
+                {
+                    //If it's player, print the player
+                    if (playerLoc[0] == i && playerLoc[1] == j)
+                    {
+                        Console.Write(Player);
+                    }
+                    //If it's not, change color according to the character
+                    else
+                    {
+                        switch (arena[i, j])
+                        {
+                            case Wall:
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Write(arena[i,j]);
+                                Console.ForegroundColor = ConsoleColor.White;
+                                break;
+
+                            case PlayerStart:
+                            case Exit:
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.Write(arena[i,j]);
+                                Console.ForegroundColor = ConsoleColor.White; 
+                                break;
+
+                            case Enemy:
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.Write(arena[i,j]);
+                                Console.ForegroundColor = ConsoleColor.White;
+                                break;
+
+                            default:
+                                Console.Write(arena[i, j]);
+                                break;
+                        }
+                    }
+                }
+
+                //Change to a new line at line ends.
+                Console.WriteLine();
+            }
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
     }

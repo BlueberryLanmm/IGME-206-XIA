@@ -29,7 +29,9 @@
             {
                 isValid = int.TryParse(
                     GetPromptedInput(
-                        String.Format("Please enter a valid whole number between {0} and {1}:",
+                        String.Format(
+                            "Please enter a whole number between {0} and {1}, " +
+                            "and make sure every stat can have at least 1 point:",
                         min,
                         max)
                         ),
