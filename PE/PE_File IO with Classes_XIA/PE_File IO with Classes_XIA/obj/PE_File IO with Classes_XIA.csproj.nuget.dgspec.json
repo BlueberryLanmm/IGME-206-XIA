@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj": {}
+    "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj": {}
   },
   "projects": {
-    "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj": {
+    "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj",
+        "projectUniqueName": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj",
         "projectName": "PE_File IO with Classes_XIA",
-        "projectPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj",
+        "projectPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj",
         "packagesPath": "C:\\Users\\yx\\.nuget\\packages\\",
-        "outputPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\obj\\",
+        "outputPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yx\\AppData\\Roaming\\NuGet\\NuGet.Config",

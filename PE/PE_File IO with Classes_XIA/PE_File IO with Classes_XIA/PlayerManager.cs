@@ -8,12 +8,12 @@ namespace PE_File_IO_with_Classes_XIA
 {
     internal class PlayerManager
     {
-        private string filename;
+        private string filename = "../../../players.txt";
+
         private List<Player> players = new List<Player>();
 
-
         /// <summary>
-        /// 
+        /// Constructor
         /// </summary>
         public PlayerManager()
         {
@@ -34,7 +34,7 @@ namespace PE_File_IO_with_Classes_XIA
         }
 
         /// <summary>
-        /// 
+        /// Load player data from ../../../players.txt file.
         /// </summary>
         public void Load()
         {
@@ -53,7 +53,7 @@ namespace PE_File_IO_with_Classes_XIA
             try
             {
                 //Load file from ../../../players.txt file
-                reader = new StreamReader("../../../players.txt");
+                reader = new StreamReader(filename);
 
                 //If the last line of the text file is not reached
                 while ((line = reader.ReadLine()) != null)
@@ -89,6 +89,9 @@ namespace PE_File_IO_with_Classes_XIA
             }                
         }
 
+        /// <summary>
+        /// Save the created players data to ../../../players.txt
+        /// </summary>
         public void Save()
         {
             //Create the stream writer to save data
@@ -96,7 +99,7 @@ namespace PE_File_IO_with_Classes_XIA
 
             try
             {
-                writer = new StreamWriter("../../../players.txt");
+                writer = new StreamWriter(filename);
 
                 //fill the file by writing each player's stats in each line
                 for (int i = 0; i < players.Count; i++)

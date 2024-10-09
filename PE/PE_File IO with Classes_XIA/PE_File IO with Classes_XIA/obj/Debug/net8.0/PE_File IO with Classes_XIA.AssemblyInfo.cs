@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_File IO with Classes_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3287c8acf3dfd17ea0fe48f185d09579b24cffa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_File IO with Classes_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_File IO with Classes_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

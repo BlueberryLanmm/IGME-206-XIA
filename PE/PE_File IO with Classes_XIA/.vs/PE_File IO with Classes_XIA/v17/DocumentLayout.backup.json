@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\",
+  "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_file io with classes_xia\\pe_file io with classes_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|solutionrelative:pe_file io with classes_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_file io with classes_xia\\pe_file io with classes_xia\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|solutionrelative:pe_file io with classes_xia\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_file io with classes_xia\\pe_file io with classes_xia\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_file io with classes_xia\\pe_file io with classes_xia\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|solutionrelative:pe_file io with classes_xia\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_file io with classes_xia\\pe_file io with classes_xia\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|solutionrelative:pe_file io with classes_xia\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_file io with classes_xia\\pe_file io with classes_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F7A97-9BDD-4267-B74E-3A5BC47C43F9}|PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA.csproj|solutionrelative:pe_file io with classes_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,40 +36,39 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PlayerManager.cs",
-              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PlayerManager.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PlayerManager.cs",
               "RelativeDocumentMoniker": "PE_File IO with Classes_XIA\\PlayerManager.cs",
-              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PlayerManager.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\PlayerManager.cs",
               "RelativeToolTip": "PE_File IO with Classes_XIA\\PlayerManager.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAADwv2IAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T20:27:10.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Player.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Player.cs",
               "RelativeDocumentMoniker": "PE_File IO with Classes_XIA\\Player.cs",
-              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Player.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Player.cs",
               "RelativeToolTip": "PE_File IO with Classes_XIA\\Player.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDcAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T20:11:33.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Program.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Program.cs",
               "RelativeDocumentMoniker": "PE_File IO with Classes_XIA\\Program.cs",
-              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Program.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_File IO with Classes_XIA\\PE_File IO with Classes_XIA\\Program.cs",
               "RelativeToolTip": "PE_File IO with Classes_XIA\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T20:11:13.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T20:11:13.476Z"
             }
           ]
         }

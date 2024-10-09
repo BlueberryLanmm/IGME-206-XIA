@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW4_Arena_STARTER\\HW4_Arena\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF524DA1-9BFC-49EC-B4B0-BBC737C62153}|HW4_Arena.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw4_arena_starter\\hw4_arena\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF524DA1-9BFC-49EC-B4B0-BBC737C62153}|HW4_Arena.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF524DA1-9BFC-49EC-B4B0-BBC737C62153}|HW4_Arena.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw4_arena_starter\\hw4_arena\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF524DA1-9BFC-49EC-B4B0-BBC737C62153}|HW4_Arena.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF524DA1-9BFC-49EC-B4B0-BBC737C62153}|HW4_Arena.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw4_arena_starter\\hw4_arena\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF524DA1-9BFC-49EC-B4B0-BBC737C62153}|HW4_Arena.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SmartConsole.cs",
               "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW4_Arena_STARTER\\HW4_Arena\\SmartConsole.cs",
               "RelativeDocumentMoniker": "SmartConsole.cs",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW4_Arena_STARTER\\HW4_Arena\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW4_Arena_STARTER\\HW4_Arena\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAgwBEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAOoBAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T21:19:32.037Z",
               "EditorCaption": ""
