@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\",
+  "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4904B2F8-032B-46A4-9144-C9681895C932}|PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_exception \u0026 tryparse_xia\\pe_exception \u0026 tryparse_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4904B2F8-032B-46A4-9144-C9681895C932}|PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_exception \u0026 tryparse_xia\\pe_exception \u0026 tryparse_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4904B2F8-032B-46A4-9144-C9681895C932}|PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA.csproj|solutionrelative:pe_exception \u0026 tryparse_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA\\Program.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA\\Program.cs",
               "RelativeDocumentMoniker": "PE_Exception \u0026 TryParse_XIA\\Program.cs",
-              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA\\Program.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Exception \u0026 TryParse_XIA\\PE_Exception \u0026 TryParse_XIA\\Program.cs",
               "RelativeToolTip": "PE_Exception \u0026 TryParse_XIA\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAgwIYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T19:19:13.919Z",
               "EditorCaption": ""

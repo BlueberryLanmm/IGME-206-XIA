@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Exception & TryParse_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+621fe8aed28d055050a55cc86f662431cef34665")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1763c9538a66b314e6620b8563ca5fc576ab1ff7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Exception & TryParse_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Exception & TryParse_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

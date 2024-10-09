@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_If Statement_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ca87ccbea7bba672e0f6eafb2505ad52d678dc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1763c9538a66b314e6620b8563ca5fc576ab1ff7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_If Statement_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_If Statement_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

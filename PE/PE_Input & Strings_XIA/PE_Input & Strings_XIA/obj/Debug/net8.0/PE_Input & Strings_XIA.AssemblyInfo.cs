@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Input & Strings_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d21e27f1fb17dd353b86fe8375e53b95cb36f94c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1763c9538a66b314e6620b8563ca5fc576ab1ff7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Input & Strings_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Input & Strings_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_If\'s & Switches")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06bc40ccb8dbae89533e46fff2b6406f5689ecbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1763c9538a66b314e6620b8563ca5fc576ab1ff7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_If\'s & Switches")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_If\'s & Switches")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

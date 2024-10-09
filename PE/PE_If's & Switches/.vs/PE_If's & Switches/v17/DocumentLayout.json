@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If\u0027s \u0026 Switches\\",
+  "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If\u0027s \u0026 Switches\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E34E037-0C86-4016-8791-0B8B26E350CE}|PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_if\u0027s \u0026 switches\\pe_if\u0027s \u0026 switches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E34E037-0C86-4016-8791-0B8B26E350CE}|PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_if\u0027s \u0026 switches\\pe_if\u0027s \u0026 switches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E34E037-0C86-4016-8791-0B8B26E350CE}|PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches.csproj|solutionrelative:pe_if\u0027s \u0026 switches\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches\\Program.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches\\Program.cs",
               "RelativeDocumentMoniker": "PE_If\u0027s \u0026 Switches\\Program.cs",
-              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches\\Program.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If\u0027s \u0026 Switches\\PE_If\u0027s \u0026 Switches\\Program.cs",
               "RelativeToolTip": "PE_If\u0027s \u0026 Switches\\Program.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwFkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T02:16:30.667Z",
               "EditorCaption": ""

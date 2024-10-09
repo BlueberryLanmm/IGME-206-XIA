@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj": {}
+    "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj": {}
   },
   "projects": {
-    "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj": {
+    "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj",
+        "projectUniqueName": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj",
         "projectName": "PE_If's & Switches",
-        "projectPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj",
+        "projectPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\PE_If's & Switches.csproj",
         "packagesPath": "C:\\Users\\yx\\.nuget\\packages\\",
-        "outputPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\obj\\",
+        "outputPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_If's & Switches\\PE_If's & Switches\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yx\\AppData\\Roaming\\NuGet\\NuGet.Config",

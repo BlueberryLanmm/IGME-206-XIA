@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Casting, Math \u0026 Doc_XIA\\",
+  "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Casting, Math \u0026 Doc_XIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FA131A7-C205-4AA2-94DF-FCA069348CEA}|PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA.csproj|h:\\1_rochester institute of technology\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_casting, math \u0026 doc_xia\\pe_casting, math \u0026 doc_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FA131A7-C205-4AA2-94DF-FCA069348CEA}|PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_casting, math \u0026 doc_xia\\pe_casting, math \u0026 doc_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FA131A7-C205-4AA2-94DF-FCA069348CEA}|PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA.csproj|solutionrelative:pe_casting, math \u0026 doc_xia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA\\Program.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA\\Program.cs",
               "RelativeDocumentMoniker": "PE_Casting, Math \u0026 Doc_XIA\\Program.cs",
-              "ToolTip": "H:\\1_Rochester Institute of Technology\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA\\Program.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Casting, Math \u0026 Doc_XIA\\PE_Casting, Math \u0026 Doc_XIA\\Program.cs",
               "RelativeToolTip": "PE_Casting, Math \u0026 Doc_XIA\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

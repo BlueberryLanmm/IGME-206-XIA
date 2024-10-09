@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Casting, Math & Doc_XIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c89b11dd4c33746846840ad93b7f1bd0ef7484f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1763c9538a66b314e6620b8563ca5fc576ab1ff7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Casting, Math & Doc_XIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Casting, Math & Doc_XIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
