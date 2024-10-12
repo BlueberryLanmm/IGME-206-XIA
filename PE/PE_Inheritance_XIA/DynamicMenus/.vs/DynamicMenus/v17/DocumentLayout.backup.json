@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_inheritance_xia\\dynamicmenus\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_inheritance_xia\\dynamicmenus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_inheritance_xia\\dynamicmenus\\gettimeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:gettimeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_inheritance_xia\\dynamicmenus\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\pe\\pe_inheritance_xia\\dynamicmenus\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddItem.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\AddItem.cs",
+              "RelativeDocumentMoniker": "AddItem.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\AddItem.cs",
+              "RelativeToolTip": "AddItem.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowE8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T05:40:39.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetTimeItem.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\GetTimeItem.cs",
+              "RelativeDocumentMoniker": "GetTimeItem.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\GetTimeItem.cs",
+              "RelativeToolTip": "GetTimeItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:42:29.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameItem.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\GameItem.cs",
+              "RelativeDocumentMoniker": "GameItem.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\GameItem.cs",
+              "RelativeToolTip": "GameItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:42:29.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\MenuItem.cs",
+              "RelativeDocumentMoniker": "MenuItem.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\MenuItem.cs",
+              "RelativeToolTip": "MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:42:29.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\PE\\PE_Inheritance_XIA\\DynamicMenus\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAABAAAAAAAAgwDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:42:29.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
