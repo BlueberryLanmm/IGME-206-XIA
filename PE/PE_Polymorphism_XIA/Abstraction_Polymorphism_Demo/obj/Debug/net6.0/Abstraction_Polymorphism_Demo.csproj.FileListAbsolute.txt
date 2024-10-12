@@ -1,0 +1,14 @@
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.exe
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.deps.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.runtimeconfig.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.pdb
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.AssemblyInfoInputs.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.AssemblyInfo.cs
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.csproj.CoreCompileInputs.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\refint\Abstraction_Polymorphism_Demo.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.pdb
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.genruntimeconfig.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\Abstraction_Polymorphism_Demo\obj\Debug\net6.0\ref\Abstraction_Polymorphism_Demo.dll
