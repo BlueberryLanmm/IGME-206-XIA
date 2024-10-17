@@ -1,0 +1,15 @@
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.exe
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.deps.json
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.runtimeconfig.json
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.dll
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.pdb
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.AssemblyInfoInputs.cache
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.AssemblyInfo.cs
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.csproj.CoreCompileInputs.cache
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.sourcelink.json
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.dll
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\refint\GDP_Exam_1.dll
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.pdb
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.genruntimeconfig.cache
+D:\Profiles\yx5186\Documents\GitHub\IGME-206-XIA\Exams\GDP_Practical\GDP_Exam1\obj\Debug\net8.0\ref\GDP_Exam_1.dll

@@ -8,7 +8,7 @@ namespace GDP_Exam_1
     /// Inherits from item and adds data & behavior specific for weapons
     /// </summary>
     // TODO: Make this inherit from item
-    class Weapon
+    class Weapon : Item
     {
         // NO additional fields or properties are permitted.
         private double weight;
@@ -20,19 +20,34 @@ namespace GDP_Exam_1
         public int Damage { get { return damage; } }
 
         /// <summary>
-        /// TODO: Add the Item class's required abstract Weight
-        /// property.
+        /// Return the weight of this weapon
         /// </summary>
+        public override double Weight
+        {
+            get { return weight; }
+        }
 
         /// <summary>
-        /// TODO: Add a parameterized constructor using the constructor
-        /// calls in Main & the writeup as a guide for what this constructor
-        /// must do. Leverage the base class constructor as needed.
+        /// Initializing a new instance of Weapon class
+        /// inherent from the Item class.
         /// </summary>
+        /// <param name="name">The name of this weapon</param>
+        /// <param name="damage">The damage this weapon can do</param>
+        /// <param name="weight">The weight of this weapon</param>
+        public Weapon (string name, int damage, double weight)
+            : base (name)
+        {
+            this.weight = weight;
+            this.damage = damage;
+        }
 
         /// <summary>
-        /// TODO: Override ToString to leverage the base class ToString 
-        /// and add on the amount of damage this weapon does.
+        /// Return a string of this weapon's info
+        /// by adding damage info to the ToString method of Item class
         /// </summary>
+        public override string ToString()
+        {
+            return base.ToString() + String.Format(", {0} damage", damage);
+        }
     }
 }
