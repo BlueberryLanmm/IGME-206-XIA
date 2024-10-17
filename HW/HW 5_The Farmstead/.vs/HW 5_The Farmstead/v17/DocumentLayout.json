@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw 5_the farmstead\\hw 5_the farmstead\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|solutionrelative:hw 5_the farmstead\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw 5_the farmstead\\hw 5_the farmstead\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|solutionrelative:hw 5_the farmstead\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw 5_the farmstead\\hw 5_the farmstead\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|solutionrelative:hw 5_the farmstead\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|h:\\1_rit\\1_curriculums\\igme-206 game dev for programmer\\github\\igme-206-xia\\hw\\hw 5_the farmstead\\hw 5_the farmstead\\crop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430902B0-B616-496A-97DE-8B711414037C}|HW 5_The Farmstead\\HW 5_The Farmstead.csproj|solutionrelative:hw 5_the farmstead\\crop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Farm.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\Farm.cs",
+              "RelativeDocumentMoniker": "HW 5_The Farmstead\\Farm.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\Farm.cs",
+              "RelativeToolTip": "HW 5_The Farmstead\\Farm.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAxwHoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:01:29.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crop.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\Crop.cs",
+              "RelativeDocumentMoniker": "HW 5_The Farmstead\\Crop.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\Crop.cs",
+              "RelativeToolTip": "HW 5_The Farmstead\\Crop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T20:02:36.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmartConsole.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\SmartConsole.cs",
+              "RelativeDocumentMoniker": "HW 5_The Farmstead\\SmartConsole.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\SmartConsole.cs",
+              "RelativeToolTip": "HW 5_The Farmstead\\SmartConsole.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv5MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:49:00.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\Program.cs",
+              "RelativeDocumentMoniker": "HW 5_The Farmstead\\Program.cs",
+              "ToolTip": "H:\\1_RIT\\1_Curriculums\\IGME-206 Game Dev for Programmer\\GitHub\\IGME-206-XIA\\HW\\HW 5_The Farmstead\\HW 5_The Farmstead\\Program.cs",
+              "RelativeToolTip": "HW 5_The Farmstead\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:09:51.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

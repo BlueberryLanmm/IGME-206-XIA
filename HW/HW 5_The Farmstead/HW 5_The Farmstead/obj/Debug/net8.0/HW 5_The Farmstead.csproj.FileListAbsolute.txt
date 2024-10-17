@@ -1,0 +1,15 @@
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\bin\Debug\net8.0\HW 5_The Farmstead.exe
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\bin\Debug\net8.0\HW 5_The Farmstead.deps.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\bin\Debug\net8.0\HW 5_The Farmstead.runtimeconfig.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\bin\Debug\net8.0\HW 5_The Farmstead.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\bin\Debug\net8.0\HW 5_The Farmstead.pdb
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.AssemblyInfoInputs.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.AssemblyInfo.cs
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.csproj.CoreCompileInputs.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.sourcelink.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\refint\HW 5_The Farmstead.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.pdb
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\HW 5_The Farmstead.genruntimeconfig.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW 5_The Farmstead\HW 5_The Farmstead\obj\Debug\net8.0\ref\HW 5_The Farmstead.dll
