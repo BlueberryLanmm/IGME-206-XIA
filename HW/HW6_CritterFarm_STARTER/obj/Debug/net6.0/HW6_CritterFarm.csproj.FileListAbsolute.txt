@@ -1,0 +1,15 @@
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\bin\Debug\net6.0\HW6_CritterFarm.exe
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\bin\Debug\net6.0\HW6_CritterFarm.deps.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\bin\Debug\net6.0\HW6_CritterFarm.runtimeconfig.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\bin\Debug\net6.0\HW6_CritterFarm.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\bin\Debug\net6.0\HW6_CritterFarm.pdb
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.GeneratedMSBuildEditorConfig.editorconfig
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.AssemblyInfoInputs.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.AssemblyInfo.cs
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.csproj.CoreCompileInputs.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.sourcelink.json
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\refint\HW6_CritterFarm.dll
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.pdb
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\HW6_CritterFarm.genruntimeconfig.cache
+H:\1_RIT\1_Curriculums\IGME-206 Game Dev for Programmer\GitHub\IGME-206-XIA\HW\HW6_CritterFarm_STARTER\obj\Debug\net6.0\ref\HW6_CritterFarm.dll

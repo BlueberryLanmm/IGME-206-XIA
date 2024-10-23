@@ -1,0 +1,2 @@
+Dog|Pax|23|23
+Horse|Cosmo|1|3

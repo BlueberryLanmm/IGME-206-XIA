@@ -4,10 +4,19 @@
 // - To change the critter types available
 // ------------------------------------------------------------------
 
+using HW6_CritterFarm.CritterTypes;
+using System.Text.RegularExpressions;
+
 namespace HW6_CritterFarm
 {
     /// <summary>
     /// TODO: Add your own summary of this class!
+    /// CritterManager class manage a list of critters together.
+    /// It creates and stores a critters list by loading files or by
+    /// setting up manually.
+    /// Allow to choose a critter from the list and manage when to call
+    /// specific interaction method of it.
+    /// Manage all critters' information update after a turn.
     /// </summary>
     class CritterManager
     {
@@ -117,7 +126,7 @@ namespace HW6_CritterFarm
 
                 // The switch statement cases and constructor calls below need to match YOUR critter types
                 // TODO: Uncomment this once your child classes exist.
-                /*
+                
                 switch (type)
                 {
                     case CritterType.Cat:
@@ -138,7 +147,8 @@ namespace HW6_CritterFarm
                         i--; // Didn't actually add a critter so go back 1 with our lcv and try again.
                         break;
                 }
-                */
+                
+
             }
         }
 
@@ -162,6 +172,97 @@ namespace HW6_CritterFarm
             // ********************************
 
             // TODO: Implement LoadCrittersFromFile()
+
+            StreamReader reader = null;
+            string line = string.Empty;
+
+            try
+            {
+                critterList.Clear();
+
+                reader = new StreamReader(filename);
+
+                //Use a while loop to read through every line.
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] data = line.Split('|');
+
+                    try
+                    {
+                        //If data[0] can be parsed to a valid critter type
+                        if (Enum.TryParse<CritterType>(data[0], true, out CritterType type))
+                        {
+                            switch (type)
+                            {
+                                //If the type is cat
+                                case CritterType.Cat:
+                                    critterList.Add(
+                                        new Cat(
+                                            data[1],
+                                            int.Parse(data[2]),
+                                            int.Parse(data[3])));
+                                    break;
+
+                                //If the type is dog
+                                case CritterType.Dog:
+                                    critterList.Add(
+                                        new Dog(
+                                            data[1],
+                                            int.Parse(data[2]),
+                                            int.Parse(data[3])));
+                                    break;
+
+                                //If the type is horse
+                                case CritterType.Horse:
+                                    critterList.Add(
+                                        new Horse(
+                                            data[1],
+                                            int.Parse(data[2]),
+                                            int.Parse(data[3])));
+                                    break;
+                            }
+                        }
+                        //Else if it cannot
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine(
+                                "{0}'s aren't supported yet. Skipping this line: {1}",
+                                data[0], line);
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                    }
+                    //If an exception occured, skip the line.
+                    catch
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("Corrupted data. Skipping this line: {0}", line);
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                }
+
+                //Print the number of loaded critters
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0} critters loaded successfully.", critterList.Count);
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            //If an exception outside the switch statement occured,
+            //it could be an IOException. Call SetupCritters() instead.
+            catch (Exception)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Critter save file doesn't exist or can't be opened.\n");
+                Console.WriteLine("You'll need to set up a new critter farm.\n");
+                Console.ForegroundColor = ConsoleColor.White;
+
+                SetupCritters();
+            }
+
+            //If the reader is opened correctly, close it after using.
+            if (reader != null)
+            {
+                reader.Close();
+            }
         }
 
 
@@ -179,6 +280,32 @@ namespace HW6_CritterFarm
             // ********************************
 
             // TODO: Implement SaveCrittersToFile()
+
+            StreamWriter writer = null;
+
+            try
+            {
+                writer = new StreamWriter(filename);
+
+                foreach (Critter c in critterList)
+                {
+                    writer.WriteLine("{1}|{0}|{2}|{3}",
+                        c.Name,
+                        c.Type,
+                        c.Hunger,
+                        c.Boredom);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            //If the writer is opened correctly, close it after using.
+            if (writer != null)
+            {
+                writer.Close();
+            }
         }
 
         // ---------------------------------------------------------------------------------------------------------------
@@ -281,6 +408,11 @@ namespace HW6_CritterFarm
                 // TODO: Update this to call any child specific methods as well.
                 //       For example, in the demo, time passing calls the
                 //       the CauseMischeif method on any cats 25% of the time
+
+                if (c is Cat && rng.NextDouble() < 0.25)
+                {
+                    ((Cat)c).CauseMischief();
+                }
             }
         }
 

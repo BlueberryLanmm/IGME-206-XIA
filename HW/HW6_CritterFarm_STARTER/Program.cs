@@ -4,11 +4,14 @@
  * HW 6 - Critter Farm
  * Write-up: https://docs.google.com/document/d/1QvqxyZXybp0HHRV3H8wvr9vmWsheNOdPoZ0V5mhzl38/edit?usp=sharing
  *
- * Known Bugs:
+ * Known Bugs: If there is no data in the "critter.txt" file, but loaded successfully,
+ *             the program will keep running without prompting manually critter setup.
  * 
  * Other notes:
  * 
  */
+using HW6_CritterFarm.CritterTypes;
+
 namespace HW6_CritterFarm
 {
     /// <summary>
@@ -29,8 +32,8 @@ namespace HW6_CritterFarm
             Console.ForegroundColor = ConsoleColor.White;
 
             // TODO: Uncomment for which thing you want to test.
-            TestCritters();
-            //RunCritterFarm();
+            //TestCritters();
+            RunCritterFarm();
         }
 
         /// <summary>
@@ -39,9 +42,57 @@ namespace HW6_CritterFarm
         /// </summary>
         static void TestCritters()
         {
+            List<Critter> critterList = new List<Critter>();
+
             Console.WriteLine("**** Testing Critter sub-classes...");
 
             // TODO: Add code here to test your critter classes!
+
+            critterList.Add(new Cat("SHIRO", 10, 10));
+            critterList.Add(new Cat("NEW CAT"));
+            critterList.Add(new Dog("PAX", 10, 10));
+            critterList.Add(new Dog("NEW PUPPY"));
+            critterList.Add(new Horse("AIDEN", 10, 10));
+            critterList.Add(new Horse("NEW HORSE"));
+
+            //Print out the critters' information
+            for (int i = 0; i < critterList.Count; i++)
+            {
+                Console.WriteLine("{0} ({2}): {1}",
+                    i + 1,
+                    critterList[i],
+                    critterList[i].Type);
+            }
+
+            //Call methods of critters
+            foreach (Critter c in critterList)
+            {
+                //Add a blank line before each critter
+                Console.WriteLine();
+
+                c.Eat();
+                c.Play();
+                c.Talk();
+                c.PassTime();
+
+                //Call CauseMischief() method if the critter is a cat.
+                if (c is Cat)
+                {
+                    ((Cat)c).CauseMischief();
+                }
+            }
+
+            //Add a blank line after calling critters' methods.
+            Console.WriteLine();
+
+            //Print out the critters' information again
+            for (int i = 0; i < critterList.Count; i++)
+            {
+                Console.WriteLine("{0} ({2}): {1}",
+                    i + 1,
+                    critterList[i],
+                    critterList[i].Type);
+            }
         }
 
         /// <summary>
@@ -57,7 +108,7 @@ namespace HW6_CritterFarm
             // TODO: Pass the correct filename to the critter manager constructor
             //       so that it will create a file "critter.txt" in the same folder as
             //       the source code
-            CritterManager manager = new CritterManager("REPLACE THIS STRING");
+            CritterManager manager = new CritterManager("../../../critter.txt");
 
             // ------------------------------------------------------------------
             // Welcome the user

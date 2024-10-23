@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW6_CritterFarm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b024b783729fa4e8dd749eaa677f19338fb8c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fcf0e29c0faf78c4fc5b7bacfb45a893251c8e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW6_CritterFarm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW6_CritterFarm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

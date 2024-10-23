@@ -44,6 +44,11 @@ namespace HW6_CritterFarm
 
     /// <summary>
     /// TODO: Add your own summary of this class!
+    /// Critter class is a template class for different critter type class.
+    /// Defines publicly readable properties and protected properties assigning
+    /// among parent and children classes.
+    /// Defines critter behaviors with public methods and ToString format of critters.
+    /// Contains abstract method UpdateMood() to be implemented in child classes.
     /// </summary>
     abstract class Critter
     {
@@ -156,6 +161,11 @@ namespace HW6_CritterFarm
         /// 
         /// TODO: Add a comment explaining why it makes sense for this method
         ///         to be abstract, but still defined here in the parent class.
+        ///         
+        /// All critters change moods, but the irritation levels are calculated 
+        /// differently. Defining UpdateMood() method in the parent class makes 
+        /// it convenient to be called in critter manager while allowing every 
+        /// type of critters' mood update differently.
         /// </summary>
         protected abstract void UpdateMood();
 
