@@ -1,0 +1,9 @@
+
+=== Tue Oct 29 16:18:34 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 3.0.24 to 3.0.31
+  com.unity.ide.visualstudio from version 2.0.18 to 2.0.22
