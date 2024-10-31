@@ -1,0 +1,19 @@
+Game Project: 2D Clock
+Creator: Yuxuan Xia
+Version: v1.0
+Date: 10/31/2024
+
+New Features
+ - Changed the background color.
+ - Add a MinuteArrow prefab with RotateArrow script. It allow the arrow to rotate at a fixed speed per unit time/per frame.
+ - Add a Clock Number prefab.
+ - Add a Clock Manager object with ClockNumbers script to generate Clock Number prefabs correctly.
+
+Fixes
+ - No fixes yet.
+
+Improvements
+ - No previous feature.
+
+Known Bugs
+ - No known bug.
