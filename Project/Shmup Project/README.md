@@ -15,7 +15,10 @@
 
 ### Game Description
 
-This is a 2D shooting game where players controls a spaceship to defeat space enemies. Players will be killing enemies with spaceship guns, dodging enemies attacks and try to defeat the final boss. They will get more score by killing more valued goals and staying alive until the end.
+This is a 2D shooting game where players controls a spaceship to defeat space enemies. 
+Players will be killing enemies with spaceship guns, dodging enemies attacks and try to 
+defeat the final boss. They will get more score by killing more valued goals and staying 
+alive until the end.
 
 ### Controls
 
@@ -24,8 +27,9 @@ This is a 2D shooting game where players controls a spaceship to defeat space en
     -   Down: S
     -   Left: A
     -   Right: D
--   Fire: Automatically fire for ship guns.
-          L-Shift fire for special missiles.
+-   Fire: 
+    - Automatically fire for ship guns.          
+    - L-Shift fire for special missiles.
 
 ## You Additions
 
