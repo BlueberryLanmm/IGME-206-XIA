@@ -31,6 +31,12 @@ alive until the end.
     - Automatically fire for ship guns.          
     - L-Shift fire for special missiles.
 
+### Enemies
+-   Small ship: enemy with fast movement and weaker gun fire.
+-   Large ship: enemy with slow movement and heavier gun fire.
+-   Rare ship: enemy that move fast but has high killing score reward.
+-   Boss: enemy that cannot move but has various missile attacks.
+
 ## You Additions
 
 A boss fight at the end of the level is expected.
