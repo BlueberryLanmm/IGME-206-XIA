@@ -26,7 +26,6 @@ public class InputController : MonoBehaviour
         inputDirection = context.ReadValue<Vector2>();  // This is already normalized for us
 
         // Send that new direction to the Vehicle class
-        //myMovementController.SetDirection(inputDirection);
-
+        myMovementController.SetDirection(inputDirection);
     }
 }
