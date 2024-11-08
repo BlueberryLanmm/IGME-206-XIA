@@ -1,0 +1,16 @@
+Game Project: 2D Vehicle Exercise
+Creator: Yuxuan Xia
+Version: v1.0
+Date: 11/7/2024
+
+New Features
+ - Add a vehicle prefab with movement controll scripts so that it wraps around in the screen.
+
+Fixes
+ - No fixes yet.
+
+Improvements
+ - No previous feature.
+
+Known Bugs
+ - No known bug.

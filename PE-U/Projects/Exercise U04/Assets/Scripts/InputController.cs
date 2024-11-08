@@ -11,6 +11,7 @@ public class InputController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Make reference to the MovementController class.
         myMovementController = GetComponent<MovementController>();
     }
 
@@ -25,7 +26,9 @@ public class InputController : MonoBehaviour
         // Get the latest value for the input from the Input System
         inputDirection = context.ReadValue<Vector2>();  // This is already normalized for us
 
-        // Send that new direction to the Vehicle class
+        // Send that new direction to the MovementController class.
         myMovementController.SetDirection(inputDirection);
+
+        //Debug.Log(inputDirection);
     }
 }
