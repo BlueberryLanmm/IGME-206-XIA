@@ -1,0 +1,18 @@
+Game Project: 2D Vehicle Exercise
+Creator: Yuxuan Xia
+Version: v2.0
+Date: 11/7/2024
+
+New Features
+ - Add other vehicles (as obstacle prefab) with collision effects in the scene.
+ - Add a Game Manager to manage the detection mode change
+ - Add a script to the vehicle prefab to manage its collision effect.
+
+Fixes
+ - No fixes yet.
+
+Improvements
+ - No improvements for previous features.
+
+Known Bugs
+ - No known bug.
