@@ -104,6 +104,7 @@ MonoBehaviour:
   applyGravity: 1
   gravityScale: 9.8
   maxSpeed: 10
+  camera: {fileID: 0}
 --- !u!114 &4300078394622985241
 MonoBehaviour:
   m_ObjectHideFlags: 0

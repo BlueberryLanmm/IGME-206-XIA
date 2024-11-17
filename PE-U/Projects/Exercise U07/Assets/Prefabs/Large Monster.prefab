@@ -104,6 +104,7 @@ MonoBehaviour:
   applyGravity: 0
   gravityScale: 0
   maxSpeed: 10
+  camera: {fileID: 0}
 --- !u!114 &7199145254705047312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,4 +118,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceMult: 2
-  debugMode: 1
+  debugMode: 0

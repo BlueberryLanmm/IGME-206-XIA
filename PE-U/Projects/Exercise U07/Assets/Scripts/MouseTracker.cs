@@ -21,9 +21,9 @@ public class MouseTracker : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void FixedUpdate()
     {
-        //Calculate the mouse force at frame end.
+        //Calculate the mouse force.
         Vector3 force = MousePosition() - transform.position;
         physics.ApplyForce(force * forceMult);
 

@@ -28,7 +28,8 @@ public class PhysicsObject : MonoBehaviour
     private float maxSpeed;
 
     //Camera bound for wall bouncing.
-    private Camera camera;
+    [SerializeField]
+    private new Camera camera;
     private float camLeft;
     private float camRight;
     private float camTop;
@@ -50,11 +51,8 @@ public class PhysicsObject : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        //Reset the acceleration at frame start.
-        acceleration = Vector3.zero;
-
         //Detect walls and apply bouncing.
         DetectWall();
         
@@ -68,11 +66,8 @@ public class PhysicsObject : MonoBehaviour
         {
             ApplyGravity(gravityScale);
         }
-    }
 
-    private void LateUpdate()
-    {
-        //Apply movement at frame end.
+        //Apply movement.
         velocity += acceleration * Time.deltaTime;
         //Limit the speed less than max speed.
         if (velocity.sqrMagnitude > Mathf.Pow(maxSpeed, 2))
@@ -85,6 +80,9 @@ public class PhysicsObject : MonoBehaviour
 
         transform.position = position;
         transform.up = direction;
+
+        //Reset the acceleration at frame end.
+        acceleration = Vector3.zero;
     }
 
     public void ApplyForce(Vector3 force)
@@ -118,22 +116,22 @@ public class PhysicsObject : MonoBehaviour
         if (newPosition.x <= camLeft)
         {
             newPosition.x = camLeft + 0.05f;
-            velocity.x *= -1;
+            velocity.x = Mathf.Abs(velocity.x);
         }
         if (newPosition.x >= camRight)
         {
             newPosition.x = camRight - 0.05f;
-            velocity.x *= -1;
+            velocity.x = -Mathf.Abs(velocity.x);
         }
         if (newPosition.y <= camButton)
         {
             newPosition.y = camButton + 0.05f;
-            velocity.y *= -1;
+            velocity.y = Mathf.Abs(velocity.y);
         }
         if (newPosition.y >= camTop)
         {
             newPosition.y = camTop - 0.05f;
-            velocity.y *= -1;
+            velocity.y = -Mathf.Abs(velocity.y);
         }
 
         transform.position = newPosition;
