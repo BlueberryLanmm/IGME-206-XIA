@@ -1,16 +1,19 @@
 Game Project: 2D Random Exercise
 Creator: Yuxuan Xia
 Version: v1.0
-Date: 11/9/2024
+Date: 11/16/2024
 
 New Features
- - Created an animal prefab.
- - Created a Spawn Manager object for animal spawn management. It allows:
-	- Spawning animals of random number.
-	- Spawning animals of random color.
-	- Spawning animals at random position conforming to Gaussian distribution.
-	- Clean up all the spawned animals before next spawn.
- - Use a click button to trigger new spawn.
+ - Created 3 monster prefabs.
+ - Add a PhysicsObject.cs script, allowing:
+	- calculate monster movement and rotate it accordingly
+	- limit the max speed for the monster.
+	- apply force to the monster
+	- apply friction to the monster movement
+	- apply gravity to the monster movement
+	- bouce the monster back when hit the screen bound
+ - Add a MouseTracker.cs script, allowing:
+	- detect mouse position and add a propotional force towards the mouse.
 
 Fixes
  - No fixes yet.
@@ -19,5 +22,4 @@ Improvements
  - No improvements for previous features.
 
 Known Issues
- - No known bugs.
- - The Button component's OnClick() event list cannot refer to the Spawn() function correctly if the SpawnManager class inherits from the Singleton class, so the inheritance is changed back to Monobehavior instead. The Singleton scripts are not used.
+ - There is small possiblity that the monsters go outside the screen and will not be sent back correctly.
