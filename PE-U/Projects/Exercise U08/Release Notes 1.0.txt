@@ -1,0 +1,25 @@
+Game Project: 2D Random Exercise
+Creator: Yuxuan Xia
+Version: v1.0
+Date: 11/16/2024
+
+New Features
+ - Created 3 monster prefabs.
+ - Add a PhysicsObject.cs script, allowing:
+	- calculate monster movement and rotate it accordingly
+	- limit the max speed for the monster.
+	- apply force to the monster
+	- apply friction to the monster movement
+	- apply gravity to the monster movement
+	- bouce the monster back when hit the screen bound
+ - Add a MouseTracker.cs script, allowing:
+	- detect mouse position and add a propotional force towards the mouse.
+
+Fixes
+ - No fixes yet.
+
+Improvements
+ - No improvements for previous features.
+
+Known Issues
+ - There is small possiblity that the monsters go outside the screen and will not be sent back correctly.
