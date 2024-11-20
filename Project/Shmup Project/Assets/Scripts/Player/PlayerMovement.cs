@@ -6,9 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Properties")]
     private Vector2 position;
+    [SerializeField]
     private Vector2 velocity;
     private Vector2 drivingForce;
     private Vector2 acceleration;
+    //When in animation, stop edge and input detect.
+    private bool inAnimation;
 
     [SerializeField, Tooltip("How fast the ship accelerates when press buttons.")]
     private float accelerateSpeed;
@@ -16,11 +19,6 @@ public class PlayerMovement : MonoBehaviour
     private float maxSpeed;
     [SerializeField,Tooltip("How fast the ship slows down when input stops.")]
     private float frictionCoeff;
-
-
-    [Header("Weapon Properties")]
-    [SerializeField]
-    private float ShootSpeed;
 
 
     [Header("References")]
@@ -52,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         //Initialize movement parameters
-        position = Vector2.zero;
+        position = transform.position;
         velocity = Vector2.zero;
         acceleration = Vector2.zero;
 
@@ -65,12 +63,14 @@ public class PlayerMovement : MonoBehaviour
             playerRenderer.bounds.extents.y;
         camTop = camera.orthographicSize - 
             playerRenderer.bounds.extents.y;
+
+        StartCoroutine(FlyIn());
     }
 
     //Update forces and acceleration every frame.
     private void Update()
     {
-        Debug.Log("Current acceleration:" + acceleration);
+
     }
 
     //Calculate velocity and position every fixed time.
@@ -98,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
         transform.position = position;
 
         //Reset the acceleration at frame end.
-        acceleration = Vector3.zero;
+        acceleration = Vector2.zero;
     }
     #endregion
 
@@ -120,6 +120,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void UpdateDrivingForce(Vector2 input)
     {
+        if (inAnimation)
+        {
+            return;
+        }
+
         drivingForce = input * accelerateSpeed;
     }
     #endregion
@@ -127,6 +132,11 @@ public class PlayerMovement : MonoBehaviour
     #region Edge Detect Functions
     private void DetectEdge()
     {
+        if (inAnimation)
+        {
+            return;
+        }
+
         //Define new position for relocating the ship.
         Vector3 newPosition = transform.position;
         float error = 0f;
@@ -154,6 +164,46 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.position = newPosition;
+    }
+    #endregion
+
+    #region Animations
+    /// <summary>
+    /// This is the move-in animation for player ship at game start.
+    /// </summary>
+    /// <returns>This blocks input for 2s from the begginning.</returns>
+    private IEnumerator FlyIn()
+    {        
+        velocity = maxSpeed * Vector2.up;
+        drivingForce = accelerateSpeed * Vector2.up;
+        inAnimation = true;
+
+        yield return new WaitForSeconds(0.5f);
+
+        drivingForce = Vector2.zero;
+
+        yield return new WaitForSeconds(1f);
+
+        inAnimation = false;
+        StartCoroutine(Blink());
+    }
+
+    /// <summary>
+    /// This is the blink effect for player ship in special cases.
+    /// </summary>
+    /// <returns>This does not block input.</returns>
+    private IEnumerator Blink()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            playerRenderer.color = Color.clear;
+
+            yield return new WaitForSeconds(0.2f);
+
+            playerRenderer.color = Color.white;
+
+            yield return new WaitForSeconds(0.2f);
+        }
     }
     #endregion
 }

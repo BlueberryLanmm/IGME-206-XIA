@@ -8,38 +8,39 @@
 ## Game Design
 
 -   Camera Orientation: Topdown view.
--   Camera Movement: Scrolling vertically with the level, fixed horizontally.
+-   Camera Movement: Fixed camera. Background and objects scroll downward with the level.
 -   Player Health: Player will have several lives.
--   End Condition: A stronger boss at the level end is expected.
--   Scoring: Player will get score according to different enemies they kill.
+-   End Condition: Defeating a stronger boss at the level end, or die before that.
+-   Scoring: Player will get score according to the enemies they kill.
 
 ### Game Description
 
 This is a 2D shooting game where players controls a spaceship to defeat space enemies. 
-Players will be killing enemies with spaceship guns, dodging enemies attacks and try to 
-defeat the final boss. They will get more score by killing more valued goals and staying 
-alive until the end.
+Players will be killing enemies with spaceship guns and missiles, dodging enemies attacks 
+and try to defeat the final boss. They will get more score by killing more valued goals 
+and staying alive until the end.
 
 ### Controls
 
 -   Movement
-    -   Up: W
-    -   Down: S
-    -   Left: A
-    -   Right: D
+    -   Up: W or Up
+    -   Down: S or Down
+    -   Left: A or Left
+    -   Right: D or Right
 -   Fire: 
     - Automatically fire for ship guns.          
-    - L-Shift fire for special missiles.
+    - L-Shift fire for special missiles (need to be reloaded by gun fire hit).
 
 ### Enemies
 -   Small ship: enemy with fast movement and weaker gun fire.
 -   Large ship: enemy with slow movement and heavier gun fire.
 -   Rare ship: enemy that move fast but has high killing score reward.
--   Boss: enemy that cannot move but has various missile attacks.
+-   Boss: enemy that cannot move but has various missile attacks at the level end.
 
 ## You Additions
 
-A boss fight at the end of the level is expected.
+-   A boss fight at the end of the level is expected.
+-   Art assets are expected to be originally made.
 
 ## Sources
 
