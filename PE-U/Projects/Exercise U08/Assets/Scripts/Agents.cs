@@ -4,22 +4,18 @@ using UnityEngine;
 
 public abstract class Agents : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    protected PhysicsObject movementManager;
+
+    private void Awake()
     {
-        
+        movementManager = GetComponent<PhysicsObject>();
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
-        
+        CalcSteeringForce();
     }
 
     protected abstract void CalcSteeringForce();
-
-    protected void Seek()
-    {
-
-    }
 }

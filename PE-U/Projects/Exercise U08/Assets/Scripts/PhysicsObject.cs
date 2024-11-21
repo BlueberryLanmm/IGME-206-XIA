@@ -26,6 +26,8 @@ public class PhysicsObject : MonoBehaviour
 
     [SerializeField]
     private float maxSpeed;
+    [SerializeField]
+    private float maxForce;
 
     //Camera bound for wall bouncing.
     [SerializeField]
@@ -38,6 +40,16 @@ public class PhysicsObject : MonoBehaviour
     public float MaxSpeed
     {
         get {return maxSpeed;}
+    }
+
+    public float MaxForce
+    {
+        get { return maxForce; }
+    }
+
+    public Vector3 Velocity
+    {
+        get { return velocity; }
     }
 
     // Start is called before the first frame update
@@ -92,6 +104,11 @@ public class PhysicsObject : MonoBehaviour
 
     public void ApplyForce(Vector3 force)
     {
+        if (force.magnitude > Mathf.Pow(maxForce, 2))
+        {  
+            force = force.normalized * maxForce; 
+        }        
+
         acceleration += force / mass;
     }
 
