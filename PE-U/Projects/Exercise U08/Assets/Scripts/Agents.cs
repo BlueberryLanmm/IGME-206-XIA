@@ -8,11 +8,12 @@ public abstract class Agents : MonoBehaviour
 
     private void Awake()
     {
+        //Make reference to the PhysicsObject script.
         movementManager = GetComponent<PhysicsObject>();
     }
 
     // Update is called once per frame
-    protected void Update()
+    protected void FixedUpdate()
     {
         CalcSteeringForce();
     }

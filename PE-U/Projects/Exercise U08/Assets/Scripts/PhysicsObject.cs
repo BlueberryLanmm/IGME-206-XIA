@@ -37,6 +37,7 @@ public class PhysicsObject : MonoBehaviour
     private float camTop;
     private float camButton;
 
+    #region Properties
     public float MaxSpeed
     {
         get {return maxSpeed;}
@@ -51,19 +52,24 @@ public class PhysicsObject : MonoBehaviour
     {
         get { return velocity; }
     }
+    #endregion
+
+    private void Awake()
+    {
+        camera = Camera.main;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         //Calculate the camera bound.
-        camera = Camera.main;
         camLeft = -camera.orthographicSize * camera.aspect;
         camRight = camera.orthographicSize * camera.aspect;
         camButton = -camera.orthographicSize;
         camTop = camera.orthographicSize;
 
         //Initialize the starting postion and velocity.
-        position = transform.position;
+        RandomSpawn();
         velocity = Vector3.zero;
     }
 
@@ -119,7 +125,6 @@ public class PhysicsObject : MonoBehaviour
         ApplyForce(gravity * mass);
     }
 
-
     private void ApplyFriction(float coeff)
     {
         //Apply friction as a force opposite to the direction.
@@ -129,6 +134,9 @@ public class PhysicsObject : MonoBehaviour
         ApplyForce(friction);
     }
 
+    /// <summary>
+    /// Bounce the monster b
+    /// </summary>
     private void DetectWall()
     {
         //When the monster goes outside the wall, teleport it back.
@@ -157,5 +165,20 @@ public class PhysicsObject : MonoBehaviour
         }
 
         transform.position = newPosition;
+    }
+
+    /// <summary>
+    /// Respawn the monster at a random position within camera range.
+    /// </summary>
+    public void RandomSpawn()
+    {
+        Vector3 spawnPosition =
+            new Vector3(
+                Random.Range(camLeft, camRight),
+                Random.Range(camButton, camTop),
+                0);
+
+        transform.position = spawnPosition;
+        position = transform.position;
     }
 }

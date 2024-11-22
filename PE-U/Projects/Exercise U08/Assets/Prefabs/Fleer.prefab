@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8158860152555527118}
   - component: {fileID: 735027259082793841}
   - component: {fileID: 8394915756272281875}
+  - component: {fileID: 3727346210448014713}
   m_Layer: 0
   m_Name: Fleer
   m_TagString: Untagged
@@ -97,10 +98,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d9ea9f53b462e46bf7a4c279b19b3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 20
+  mass: 2
   applyFriction: 0
   coefficient: 0
   applyGravity: 0
   gravityScale: 0
-  maxSpeed: 10
+  maxSpeed: 4
+  maxForce: 3
   camera: {fileID: 0}
+--- !u!114 &3727346210448014713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737255614177936080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffeeccddc1a3bd4ca2e35338539d30f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  caughtRange: 0.5

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3557211254002663758}
   - component: {fileID: 3951562126288637787}
   - component: {fileID: 1357436924019270933}
+  - component: {fileID: 1156223287687219128}
   m_Layer: 0
   m_Name: Seeker
   m_TagString: Untagged
@@ -102,5 +103,19 @@ MonoBehaviour:
   coefficient: 0.8
   applyGravity: 0
   gravityScale: 9.8
-  maxSpeed: 10
+  maxSpeed: 5
+  maxForce: 3
   camera: {fileID: 0}
+--- !u!114 &1156223287687219128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5229780212458086946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab0ba000740ea4fafa6399a186a5d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}

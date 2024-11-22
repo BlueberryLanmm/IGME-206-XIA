@@ -1,19 +1,15 @@
-Game Project: 2D Random Exercise
+Game Project: Seek and Flee (Force Exercies 2.0)
 Creator: Yuxuan Xia
-Version: v1.0
-Date: 11/16/2024
+Version: v2.0
+Date: 11/21/2024
 
 New Features
- - Created 3 monster prefabs.
- - Add a PhysicsObject.cs script, allowing:
-	- calculate monster movement and rotate it accordingly
-	- limit the max speed for the monster.
-	- apply force to the monster
-	- apply friction to the monster movement
-	- apply gravity to the monster movement
-	- bouce the monster back when hit the screen bound
- - Add a MouseTracker.cs script, allowing:
-	- detect mouse position and add a propotional force towards the mouse.
+ - Created a parent class named Agent, to control behaviors of automatic agents
+ - Created a seeker prefab with a Seeker class inherit from Agent class, allowing to
+	- chase a selected target at a given max speed and steering force.
+ - Created a fleer prefab with a Fleer class inherit from Agent class, allowing to
+	- flee from a selected target at a given max speed and steering force
+	- randomly respawn in the scene when get caught.
 
 Fixes
  - No fixes yet.
@@ -22,4 +18,4 @@ Improvements
  - No improvements for previous features.
 
 Known Issues
- - There is small possiblity that the monsters go outside the screen and will not be sent back correctly.
+ - No known issues.
