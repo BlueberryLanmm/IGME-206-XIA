@@ -6,11 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Properties")]
     private Vector2 position;
-    [SerializeField]
     private Vector2 velocity;
     private Vector2 drivingForce;
     private Vector2 acceleration;
-    //When in animation, stop edge and input detect.
+    //When in animation, stop input and some detections.
     private bool inAnimation;
 
     [SerializeField, Tooltip("How fast the ship accelerates when press buttons.")]
@@ -19,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     private float maxSpeed;
     [SerializeField,Tooltip("How fast the ship slows down when input stops.")]
     private float frictionCoeff;
-
 
     [Header("References")]
 
@@ -32,7 +30,6 @@ public class PlayerMovement : MonoBehaviour
     private Camera camera;
 
     //Renderer parameters
-    [SerializeField]
     private SpriteRenderer playerRenderer;
 
 
@@ -43,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         camera = Camera.main;
 
         //Renderer reference
-        playerRenderer = GetComponent<SpriteRenderer>();
+        playerRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
     }
 
     //Make initializations in Start()
@@ -55,13 +52,13 @@ public class PlayerMovement : MonoBehaviour
         acceleration = Vector2.zero;
 
         //Initialize camera parameters
-        camLeft = -camera.orthographicSize * camera.aspect + 
+        camLeft = -camera.orthographicSize * camera.aspect +
             playerRenderer.bounds.extents.x;
         camRight = camera.orthographicSize * camera.aspect -
             playerRenderer.bounds.extents.x;
-        camButton = -camera.orthographicSize + 
+        camButton = -camera.orthographicSize +
             playerRenderer.bounds.extents.y;
-        camTop = camera.orthographicSize - 
+        camTop = camera.orthographicSize -
             playerRenderer.bounds.extents.y;
 
         StartCoroutine(FlyIn());

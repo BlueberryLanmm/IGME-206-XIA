@@ -32,8 +32,8 @@ and staying alive until the end.
     - L-Shift fire for special missiles (need to be reloaded by gun fire hit).
 
 ### Enemies
--   Small ship: enemy with fast movement and weaker gun fire.
--   Large ship: enemy with slow movement and heavier gun fire.
+-   Small ship: enemy with fast movement, low HP and normal gun fire.
+-   Large ship: enemy with slow movement, high HP and spread gun fire.
 -   Rare ship: enemy that move fast but has high killing score reward.
 -   Boss: enemy that cannot move but has various missile attacks at the level end.
 
