@@ -12,7 +12,7 @@ public abstract class Agents : MonoBehaviour
     private float camTop;
     private float camButton;
 
-    private void Awake()
+    protected void Awake()
     {
         camera = Camera.main;
 
@@ -20,7 +20,7 @@ public abstract class Agents : MonoBehaviour
         movementManager = GetComponent<PhysicsObject>();
     }
 
-    private void Start()
+    protected void Start()
     {
         //Initialize the camera bounds.
         camLeft = -camera.orthographicSize * camera.aspect;
@@ -144,28 +144,29 @@ public abstract class Agents : MonoBehaviour
         return force;
     }
 
-    protected Vector3 AvoidObstacleForce(List<Transform> obstacles)
+    protected Vector3 AvoidObstacleForce(List<Obstacle> obstacles)
     {
         Vector3 force = Vector3.zero;
 
-        foreach (Transform obstacle in obstacles)
+        foreach (Obstacle obstacle in obstacles)
         {
-            Vector3 localPosition = obstacle.position - movementManager.Position;
+            Vector3 localPosition = obstacle.transform.position - movementManager.Position;
 
             //Calculate the desired velocity as the maximum speed to the right/left.
             Vector3 desiredVelocity = 
-                transform.right *
+                -transform.right *
                 Mathf.Sign(Vector3.Dot(transform.right, localPosition)) * 
                 movementManager.MaxSpeed;
 
             Vector3 currentVelocity = movementManager.Velocity;
 
             //Force is max force to turn to desired velocity.
-            force = (desiredVelocity - currentVelocity).normalized *
-                movementManager.MaxForce;
+            force += (desiredVelocity - currentVelocity).normalized *   //force direction
+                movementManager.MaxForce *                              //default force magnitude
+                (10f / localPosition.magnitude);                       //force weight
         }
 
-        return Vector3.zero;
+        return force;
     }
 
     #region Future Position
@@ -174,12 +175,4 @@ public abstract class Agents : MonoBehaviour
         return movementManager.Velocity * time + movementManager.Position;
     }
     #endregion
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-
-        Gizmos.DrawSphere(GetFuturePosition(1f), 0.1f);
-        Gizmos.DrawLine(transform.position, transform.position + CalcSteeringForce());
-    }
 }

@@ -1,18 +1,22 @@
-Game Project: Wandering Agent (Force Exercies 3.0)
+Game Project: Obstacle Avoidance (Force Exercies 4.0)
 Creator: Yuxuan Xia
-Version: v3.0
-Date: 11/23/2024
+Version: v4.0
+Date: 12/7/2024
 
 New Features
- - Created a Wander Agent prefab with Wanderer script inherits from Agent class, allowing:
-	- the agent to wander in the scene, and randomly turn when moves
-	- the agent to steer back when approaches the wall.
+ - Created a AvoidObstacle scene.
+ - Created an Avoid Agent prefab with AvoidWanderer.cs script, allowing:
+	- the agent to wander around the scene like the previous wanderer agents
+	- the agent to refer to all the obstacles in the scene
+	- the agent to distinguish obstacles to avoid and try to avoid them
+- Created an Obstacle prefab with Obstacle.cs script, allowing:
+	- Set an obstacle's avoiding radius.
 
 Fixes
  - No fixes yet.
 
 Improvements
- - Modified Agent class, Fleer class and Seeker class to be better structured for this version.
+ - No improvements for previous features.
 
 Known Issues
- - The wander agent's behaviour could be wield when approaches the bounds. It will keep randomizing a direction to go, and will not be able to move effectively until it gets a direction away from the wall.
+ - No known issues.

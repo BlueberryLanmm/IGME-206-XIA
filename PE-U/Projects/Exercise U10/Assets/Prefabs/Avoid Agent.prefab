@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3832576286411196213}
   - component: {fileID: 1838660377357799646}
+  - component: {fileID: 2987259424472202969}
+  - component: {fileID: 5717030914890750917}
   m_Layer: 0
   m_Name: Avoid Agent
   m_TagString: Untagged
@@ -84,3 +86,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2987259424472202969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711961744711957541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d9ea9f53b462e46bf7a4c279b19b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 1
+  applyFriction: 0
+  coefficient: 0
+  applyGravity: 0
+  gravityScale: 0
+  maxSpeed: 3
+  maxForce: 3
+--- !u!114 &5717030914890750917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711961744711957541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672352e1ab1e974438831a1876fb102c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookAheadTime: 1
+  obstacleManager: {fileID: 0}
+  avoidingRadius: 0.3
+  wanderRadius: 1
+  wanderAngle: 60
