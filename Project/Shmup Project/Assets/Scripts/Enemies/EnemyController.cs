@@ -136,7 +136,7 @@ public abstract class EnemyController : MonoBehaviour
             enemyTop > playerButton &&
             enemyButton < playerTop)
         {
-            Debug.Log("Enemy hit player!");
+            //Debug.Log("Enemy hit player!");
 
             //If hit player, deal maximum damage and crash.
             enemyStatus.ReceiveDamage(enemyStatus.Health, true);

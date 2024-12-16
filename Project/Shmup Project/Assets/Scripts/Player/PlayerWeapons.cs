@@ -5,14 +5,13 @@ using UnityEngine;
 public class PlayerWeapons : MonoBehaviour
 {
     private float bulletFireTimer;
+    [SerializeField]
     private float missileFireTimer;
 
     [Header("Gun Properties", order = 0)]
     [Header("Gun Fire", order = 1)]
     [SerializeField]
     private GameObject bullet;
-    [SerializeField]
-    private int bulletDamage;
     [SerializeField]
     private float bulletCooldown;
     [SerializeField]
@@ -26,21 +25,29 @@ public class PlayerWeapons : MonoBehaviour
     [SerializeField]
     private GameObject missile;
     [SerializeField]
-    private int missileDamage;
-    [SerializeField]
-    private float missileRange;
-    [SerializeField]
     private float missileCooldown;
     [SerializeField]
-    private float eneryCost;
-    [Header("Missile Movements", order = 1)]
-    [SerializeField]
-    private float accelerateSpeed;
-    [SerializeField]
-    private float maxSpeed;
-    [SerializeField]
-    private float maxTurnAngle;
+    private float energyCost;
+    private bool isTriggered;
 
+
+    private PlayerStatus status;
+
+
+    #region Properties
+    public bool IsTriggered
+    {
+        get { return isTriggered; }
+
+        set { isTriggered = value; }
+    }
+    #endregion
+
+
+    private void Awake()
+    {
+        status = GetComponent<PlayerStatus>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +60,7 @@ public class PlayerWeapons : MonoBehaviour
     void Update()
     {
         FireGuns();
-        FireMissiles();
+        FireMissiles(IsTriggered);
     }
 
     private void FireGuns()
@@ -73,8 +80,30 @@ public class PlayerWeapons : MonoBehaviour
         }
     }
 
-    private void FireMissiles()
+    public void FireMissiles(bool isTriggered)
     {
+        missileFireTimer -= Time.deltaTime;
 
+        if (!isTriggered)
+        {
+            return;
+        }
+
+        if (status.Energy >= energyCost)
+        {
+            if (missileFireTimer < 0f)
+            {
+                Debug.Log("Missile Fire!");
+
+                //Reset the fire timer.
+                missileFireTimer = missileCooldown;
+
+                //Instantiate the bullet to face upwards.
+                GameObject.Instantiate(
+                    missile,
+                    transform.position + transform.up,
+                    transform.rotation);
+            }
+        }
     }
 }

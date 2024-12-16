@@ -8,6 +8,8 @@ public abstract class MissileController : MonoBehaviour
     private int damage;
     [SerializeField]
     private float startSpeed;
+    [SerializeField]
+    private float maxSpeed;
 
     //Movement parameters
     private Vector2 position;
@@ -16,7 +18,6 @@ public abstract class MissileController : MonoBehaviour
 
     private Vector2 acceleration;
     private Vector2 drivingForce;
-    private float accelerateSpeed;
 
     //Camera parameters
     private float camLeft;
@@ -35,6 +36,16 @@ public abstract class MissileController : MonoBehaviour
 
 
     #region Properties
+    public Vector2 Velocity
+    {
+        get { return velocity; }
+    }
+
+    public Vector2 Direction
+    {
+        get { return direction; }
+    } 
+
     public int Damage
     { 
         get { return damage; } 
@@ -42,9 +53,9 @@ public abstract class MissileController : MonoBehaviour
         set { damage = value; }
     }
 
-    public float AccelerateSpeed
+    public float MaxSpeed
     {
-        set { accelerateSpeed = value; }
+        get { return maxSpeed; }
     }
     #endregion
 
@@ -103,12 +114,19 @@ public abstract class MissileController : MonoBehaviour
         ApplyForce(drivingForce);
 
         velocity += acceleration * Time.deltaTime;
+        direction = velocity.normalized;
 
         position += velocity * Time.deltaTime;
         transform.position = position;
+        transform.up = direction;
 
         //Reset the acceleration at frame end.
         acceleration = Vector2.zero;
+
+        if (velocity.sqrMagnitude > Mathf.Pow(maxSpeed, 2)) 
+        {
+            velocity = velocity.normalized * maxSpeed;
+        }             
     }
 
     private void ApplyForce(Vector2 force)
@@ -118,7 +136,7 @@ public abstract class MissileController : MonoBehaviour
 
     protected void UpdateDrivingForce(Vector2 input)
     {
-        drivingForce = input * accelerateSpeed;
+        drivingForce = input;
     }
 
     private void DetectEdge()
@@ -136,7 +154,7 @@ public abstract class MissileController : MonoBehaviour
     }
     #endregion
 
-    private void Update()
+    protected void Update()
     {
         DetectCollision();
     }
@@ -216,7 +234,7 @@ public abstract class MissileController : MonoBehaviour
 
         if (gameObject.CompareTag("EnemyMissile"))
         {
-            Debug.Log("Missile hit player!");
+            //Debug.Log("Missile hit player!");
             target.GetComponent<PlayerStatus>().Health -= Damage;
             GameObject.Destroy(gameObject);
         }

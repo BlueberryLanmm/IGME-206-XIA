@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerStatus : MonoBehaviour
 {
     [Header("Basic Properties")]
-    private int health;
-    private int score;
-    private float energy;
+    private int health = 0;
+    private int score = 0;
+    private float energy = 0;
 
     [SerializeField]
     private int maxHealth;
