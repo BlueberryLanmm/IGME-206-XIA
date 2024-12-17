@@ -41,6 +41,11 @@ public class PlayerWeapons : MonoBehaviour
 
         set { isTriggered = value; }
     }
+
+    public float BulletCharge
+    {
+        get { return energyCharge; }
+    }
     #endregion
 
 
@@ -97,6 +102,7 @@ public class PlayerWeapons : MonoBehaviour
 
                 //Reset the fire timer.
                 missileFireTimer = missileCooldown;
+                status.Energy -= energyCost;
 
                 //Instantiate the bullet to face upwards.
                 GameObject.Instantiate(

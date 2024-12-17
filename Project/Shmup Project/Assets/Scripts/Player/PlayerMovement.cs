@@ -182,6 +182,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         inAnimation = false;
+
         StartCoroutine(Blink());
     }
 

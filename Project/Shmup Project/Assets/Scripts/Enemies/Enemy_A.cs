@@ -7,7 +7,7 @@ public class Enemy_A : EnemyController
     private float fireTimer;
 
 
-    private void Start()
+    protected override void Start()
     {
         base.Start();
 

@@ -31,8 +31,9 @@ public abstract class MissileController : MonoBehaviour
 
     //Targets Reference
     private GameObject enemyManager;
+    protected GameObject player;
     protected Transform[] targets;
-    protected SpriteRenderer[] targetRenderers;
+    protected SpriteRenderer[] targetBoxRenderers;
 
 
     #region Properties
@@ -60,7 +61,7 @@ public abstract class MissileController : MonoBehaviour
     #endregion
 
 
-    private void Awake()
+    protected virtual void Awake()
     {
         //Camera reference
         camera = Camera.main;
@@ -73,6 +74,17 @@ public abstract class MissileController : MonoBehaviour
         catch
         {
             Debug.Log("Can't find Enemy Manager. Missile spawn failed.");
+            GameObject.Destroy(gameObject);
+        }
+
+        //Reference the player.
+        try
+        {
+             player = GameObject.FindGameObjectWithTag("Player");
+        }
+        catch
+        {
+            Debug.Log("Can't find player. Missile aim failed.");
             GameObject.Destroy(gameObject);
         }
 
@@ -154,7 +166,7 @@ public abstract class MissileController : MonoBehaviour
     }
     #endregion
 
-    protected void Update()
+    protected virtual void Update()
     {
         DetectCollision();
     }
@@ -168,20 +180,10 @@ public abstract class MissileController : MonoBehaviour
             if (targets == null)
             {
                 targets = new Transform[1];
-                targetRenderers = new SpriteRenderer[1];
+                targetBoxRenderers = new SpriteRenderer[1];
 
-                #region Find Player
-                try
-                {
-                    targets[0] = GameObject.FindGameObjectWithTag("Player").transform;
-                    targetRenderers[0] = targets[0].GetComponent<SpriteRenderer>();
-                }
-                catch
-                {
-                    Debug.Log("Can't find player. Missile aim failed.");
-                    GameObject.Destroy(gameObject);
-                }
-                #endregion
+                targets[0] = player.transform;
+                targetBoxRenderers[0] = player.GetComponent<SpriteRenderer>();
             }
         }
 
@@ -190,12 +192,19 @@ public abstract class MissileController : MonoBehaviour
         {
             //Get all children of enemyManager as the targets.
             targets = enemyManager.GetComponentsInChildren<Transform>();
-            targetRenderers = enemyManager.GetComponentsInChildren<SpriteRenderer>();            
+            targetBoxRenderers = enemyManager.GetComponentsInChildren<SpriteRenderer>();            
         }
 
         //Use the AABB collision detection, and return the detected target.
-        foreach (SpriteRenderer targetRenderer in targetRenderers)
+        foreach (SpriteRenderer targetRenderer in targetBoxRenderers)
         {
+            //If collide with sprite instead of player/enemy box, do not return it.
+            if (!targetRenderer.CompareTag("Player") &&
+                !targetRenderer.CompareTag("Enemy"))
+            {
+                continue;
+            }
+
             float missileRight = spriteRenderer.bounds.max.x;
             float missileLeft = spriteRenderer.bounds.min.x;
             float missileTop = spriteRenderer.bounds.max.y;
@@ -211,21 +220,13 @@ public abstract class MissileController : MonoBehaviour
                 missileTop > targetButton &&
                 missileButton < targetTop)
             {
-                //If collide with sprite instead of player/enemy box, do not return it.
-                if (!targetRenderer.CompareTag("Player") &&
-                    !targetRenderer.CompareTag("Enemy"))
-                {
-                    continue;
-                }
-
                 MissileHit(targetRenderer.transform);
-
                 return;
             }
         }
     }
 
-    private void MissileHit(Transform target)
+    protected virtual void MissileHit(Transform target)
     {
         if (target == null)
         {
@@ -235,7 +236,7 @@ public abstract class MissileController : MonoBehaviour
         if (gameObject.CompareTag("EnemyMissile"))
         {
             //Debug.Log("Missile hit player!");
-            target.GetComponent<PlayerStatus>().Health -= Damage;
+            target.GetComponent<PlayerStatus>().ReceiveDamage(Damage);
             GameObject.Destroy(gameObject);
         }
 

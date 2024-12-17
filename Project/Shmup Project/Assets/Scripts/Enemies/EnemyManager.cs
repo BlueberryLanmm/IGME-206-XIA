@@ -48,10 +48,14 @@ public class EnemyManager : MonoBehaviour
 
             if (enemy.SpawnTimer < 0)
             {
-                //Limit a spawn position within the camera width.
                 Vector2 spawnPosition = new Vector2(
-                    UnityEngine.Random.Range(camLeft, camRight),
-                    transform.position.y);
+                        transform.position.x,
+                        transform.position.y);
+
+                if (!enemy.IsBoss)
+                {
+                    spawnPosition.x = UnityEngine.Random.Range(camLeft, camRight);
+                }
 
                 //Instantiate the enemy as a child of Enemy Manager.
                 GameObject.Instantiate(
@@ -79,6 +83,8 @@ public class Enemy
     //The prefab of this type of enemy.
     [SerializeField]
     private GameObject prefab;
+    [SerializeField]
+    private bool isBoss;
     //The spawn interval of this type of enemy.
     [SerializeField]
     private float spawnInterval;
@@ -90,6 +96,11 @@ public class Enemy
     public GameObject Prefab
     { 
         get { return prefab; } 
+    }
+
+    public bool IsBoss
+    { 
+        get { return isBoss; } 
     }
 
     public float SpawnInterval

@@ -100,6 +100,6 @@ MonoBehaviour:
   damage: 5
   startSpeed: 3
   maxSpeed: 4
-  effectRange: 0
+  effectRange: 2
   turningForce: 2.5
   maxTurningAngle: 10

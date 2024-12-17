@@ -12,7 +12,7 @@ public class Missile_Homing : MissileController
     private float maxTurningAngle;
 
 
-    private void Update()
+    protected override void Update()
     {
         base.Update();
 
@@ -23,7 +23,6 @@ public class Missile_Homing : MissileController
             UpdateDrivingForce(SeekForce(homingTarget.position));
         }
     }
-
 
     private Transform HomingTarget()
     {
@@ -54,7 +53,6 @@ public class Missile_Homing : MissileController
 
         return target;
     }
-
 
     private Vector2 SeekForce(Vector3 targetPos)
     {
@@ -91,5 +89,42 @@ public class Missile_Homing : MissileController
             turningForce;
 
         return force;
+    }
+
+    protected override void MissileHit(Transform target)
+    {
+        if (target == null)
+        {
+            return;
+        }
+
+        if (gameObject.CompareTag("EnemyMissile"))
+        {
+            //Debug.Log("Missile hit player!");
+            target.GetComponent<PlayerStatus>().ReceiveDamage(Damage);
+            GameObject.Destroy(gameObject);
+        }
+
+        if (gameObject.CompareTag("PlayerMissile"))
+        {
+            Debug.Log("Missile hit enemy!");
+
+            foreach (Transform t in targets)
+            {
+                if (!t.CompareTag("Player") &&
+                    !t.CompareTag("Enemy"))
+                {
+                    continue;
+                }
+
+                //If any other target is in explosion range, receive damage.
+                if (Vector2.SqrMagnitude(t.position - target.position) < Mathf.Pow(effectRange, 2))
+                {
+                    t.GetComponent<EnemyStatus>().ReceiveDamage(Damage);
+                }
+            }
+
+            GameObject.Destroy(gameObject);
+        }
     }
 }

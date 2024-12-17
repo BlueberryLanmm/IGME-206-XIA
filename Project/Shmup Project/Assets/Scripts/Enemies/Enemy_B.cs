@@ -14,8 +14,7 @@ public class Enemy_B : EnemyController
     private float angleInterval;
 
 
-
-    private void Start()
+    protected override void Start()
     {
         base.Start();
 

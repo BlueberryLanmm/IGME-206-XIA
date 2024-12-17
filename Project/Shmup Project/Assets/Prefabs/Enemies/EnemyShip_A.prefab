@@ -184,8 +184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  scoreBonus: 50
-  energyBonus: 5
+  scoreBonus: 400
+  energyBonus: 0
 --- !u!114 &7724381420306583083
 MonoBehaviour:
   m_ObjectHideFlags: 0

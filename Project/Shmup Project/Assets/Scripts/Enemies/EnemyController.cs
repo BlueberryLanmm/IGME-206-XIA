@@ -34,28 +34,29 @@ public abstract class EnemyController : MonoBehaviour
     private Camera camera;
 
     //Player parameters
-    private SpriteRenderer playerRenderer;
+    private SpriteRenderer playerBoxRenderer;
 
     //Component references
-    private SpriteRenderer enemyRenderer;
+    private SpriteRenderer enemyBoxRenderer;
     private EnemyStatus enemyStatus;
+    private SpriteRenderer spriteRenderer;
 
 
-    protected void Awake()
+    protected virtual void Awake()
     {
         //Camera reference
         camera = Camera.main;
 
         //Component references
-        enemyRenderer = GetComponent<SpriteRenderer>();
+        enemyBoxRenderer = GetComponent<SpriteRenderer>();
         enemyStatus = GetComponent<EnemyStatus>();
 
         //Player reference
-        playerRenderer = enemyStatus.Player.GetComponent<SpriteRenderer>();
+        playerBoxRenderer = enemyStatus.Player.GetComponent<SpriteRenderer>();
     }
 
     // Start is called before the first frame update
-    protected void Start()
+    protected virtual void Start()
     {
         //Initialize movement parameters
         position = transform.position;
@@ -65,11 +66,11 @@ public abstract class EnemyController : MonoBehaviour
 
         //Initialize camera parameters
         camLeft = -camera.orthographicSize * camera.aspect +
-            enemyRenderer.bounds.extents.x;
+            enemyBoxRenderer.bounds.extents.x;
         camRight = camera.orthographicSize * camera.aspect -
-            enemyRenderer.bounds.extents.x;
+            enemyBoxRenderer.bounds.extents.x;
         camButton = -camera.orthographicSize -
-            enemyRenderer.bounds.extents.y;
+            enemyBoxRenderer.bounds.extents.y;
     }
 
     private void FixedUpdate()
@@ -121,15 +122,15 @@ public abstract class EnemyController : MonoBehaviour
     private void DetectCollision()
     {
         //Use the AABB collision detection 
-        float enemyRight = enemyRenderer.bounds.max.x;
-        float enemyLeft = enemyRenderer.bounds.min.x;
-        float enemyTop = enemyRenderer.bounds.max.y;
-        float enemyButton = enemyRenderer.bounds.min.y;
+        float enemyRight = enemyBoxRenderer.bounds.max.x;
+        float enemyLeft = enemyBoxRenderer.bounds.min.x;
+        float enemyTop = enemyBoxRenderer.bounds.max.y;
+        float enemyButton = enemyBoxRenderer.bounds.min.y;
 
-        float playerRight = playerRenderer.bounds.max.x;
-        float playerLeft = playerRenderer.bounds.min.x;
-        float playerTop = playerRenderer.bounds.max.y;
-        float playerButton = playerRenderer.bounds.min.y;
+        float playerRight = playerBoxRenderer.bounds.max.x;
+        float playerLeft = playerBoxRenderer.bounds.min.x;
+        float playerTop = playerBoxRenderer.bounds.max.y;
+        float playerButton = playerBoxRenderer.bounds.min.y;
 
         if (enemyRight > playerLeft &&
             enemyLeft < playerRight &&
