@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public abstract class EnemyController : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
     [Header("Movement Properties")]
     private Vector2 position;
@@ -13,15 +12,6 @@ public abstract class EnemyController : MonoBehaviour
     private float verticalSpeed;
     [SerializeField, Tooltip("The maximum horizontal speed of the enemy.")]
     private float horizontalSpeed;
-
-
-    //More fields required in children classes.
-    [Header("Weapon Properties")]
-    [SerializeField]
-    protected GameObject missile;
-    [SerializeField]
-    protected float fireCooldown;
-
 
     /// <summary>
     /// References
@@ -113,11 +103,8 @@ public abstract class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        FireMissiles();
         DetectCollision();
     }
-
-    protected abstract void FireMissiles();
 
     private void DetectCollision()
     {

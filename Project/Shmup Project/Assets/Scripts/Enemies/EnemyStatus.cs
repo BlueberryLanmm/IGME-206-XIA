@@ -109,7 +109,7 @@ public class EnemyStatus : MonoBehaviour
     {
         spriteRenderer.color = new Color(1f, 1f, 1f, 0f);
 
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.05f);
 
         spriteRenderer.color = Color.white;
     }
