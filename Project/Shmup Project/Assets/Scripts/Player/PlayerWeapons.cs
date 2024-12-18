@@ -57,7 +57,7 @@ public class PlayerWeapons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bulletFireTimer = bulletCooldown;
+        bulletFireTimer = 3f;
         missileFireTimer = missileCooldown;
     }
 
@@ -89,6 +89,7 @@ public class PlayerWeapons : MonoBehaviour
     {
         missileFireTimer -= Time.deltaTime;
 
+        //If not triggered, return and do nothing.
         if (!isTriggered)
         {
             return;

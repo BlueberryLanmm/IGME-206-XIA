@@ -29,7 +29,6 @@ public class EnemyMovement : MonoBehaviour
     //Component references
     private SpriteRenderer enemyBoxRenderer;
     private EnemyStatus enemyStatus;
-    private SpriteRenderer spriteRenderer;
 
 
     protected virtual void Awake()
@@ -108,6 +107,11 @@ public class EnemyMovement : MonoBehaviour
 
     private void DetectCollision()
     {
+        if (playerBoxRenderer == null)
+        {
+            return;
+        }
+
         //Use the AABB collision detection 
         float enemyRight = enemyBoxRenderer.bounds.max.x;
         float enemyLeft = enemyBoxRenderer.bounds.min.x;

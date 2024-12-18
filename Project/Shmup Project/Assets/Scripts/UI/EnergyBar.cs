@@ -33,6 +33,7 @@ public class EnergyBar : MonoBehaviour
 
     private void Update()
     {
+        //Update the length of the bar according to player status.
         float ratio = playerStatus.Energy / playerStatus.MaxEnergy;
         float refIndex = 0.1f;
 
@@ -40,12 +41,13 @@ public class EnergyBar : MonoBehaviour
 
         rectTransform.sizeDelta = new Vector2(rectTransform.rect.width, currentHeight);
 
+        //Blink when energy is full.
         Blink(ratio > 0.95f);
     }
 
     private void Blink(bool isBlinking)
     {
-        Color bright = Color.white;
+        Color bright = new Color(0f, 0.7f, 1f, 1f);
         Color normal = new Color(0.5f, 0.5f, 0.5f, 1);
         Color dark = new Color(0.2f, 0.2f, 0.2f, 1);
         float blinkDuration = 0.5f;

@@ -33,6 +33,13 @@ public class EnemyStatus : MonoBehaviour
     {
         get { return health; }
     }
+
+    public bool IsBoss
+    { 
+        get { return isBoss; } 
+
+        set { isBoss = value; }
+    }
     #endregion
 
 
@@ -62,7 +69,7 @@ public class EnemyStatus : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DeathCheck(hasCrash);
+        DeathCheck();
     }
 
     public void ReceiveDamage(int damage)
@@ -73,33 +80,50 @@ public class EnemyStatus : MonoBehaviour
 
     public void ReceiveDamage(int damage, bool hasCrash)
     {
+        this.hasCrash = hasCrash;
+        health -= damage;
+
+        //If the enemy is a boss, no damage will be dealt,
+        //so it will not blink.
         if (isBoss)
         {
             return;
         }
 
-        health -= damage;
-        this.hasCrash = hasCrash;
         StartCoroutine(Blink());
     }
 
-    public void DeathCheck(bool hasCrash)
+    public void DeathCheck()
     {
-        if (health > 0)
+        if (playerStatus == null)
         {
             return;
-        }
+        }    
 
-        //If enemy died due to crashing, deal damage to the player.
-        if (hasCrash)
-        {
-            playerStatus.ReceiveDamage(2);
-        }
-        else
+        if (health <= 0 && !hasCrash)
         {
             //If enemy died, add to player score and energy.
             playerStatus.Score += scoreBonus;
             playerStatus.Energy += energyBonus;
+        }
+        //If enemy crash into the player, cause damage.
+        else if (hasCrash)
+        {
+            playerStatus.ReceiveDamage(2);
+
+            //Reset the hasCrash for boss crash detection.
+            hasCrash = false;
+        }
+        
+        //If enemy is still alive, return and do noting.
+        if (health >0)
+        {
+            return;
+        }
+
+        if (isBoss)
+        {
+            playerStatus.HasWon = true;
         }
 
         GameObject.Destroy(gameObject);

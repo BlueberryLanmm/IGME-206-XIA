@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 4675534395014536260}
   - component: {fileID: 176761069254740738}
   - component: {fileID: 9004695759960650502}
+  - component: {fileID: 6483212777860288085}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Player
@@ -216,7 +217,19 @@ MonoBehaviour:
     m_ActionId: 022b1893-96bd-4eaf-b9ae-f44188d7acad
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9004695759960650502}
+        m_TargetAssemblyTypeName: InputController, Assembly-CSharp
+        m_MethodName: OnFireMissile
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 0355a979-0852-4a8b-92a0-4b4ba7e7bc3f
     m_ActionName: Player/Fire[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
@@ -236,8 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8584ce6646246745b255973546a5091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  maxEnergy: 0
+  maxHealth: 10
+  maxEnergy: 10
 --- !u!114 &4675534395014536260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,7 +266,6 @@ MonoBehaviour:
   accelerateSpeed: 20
   maxSpeed: 5
   frictionCoeff: 10
-  camera: {fileID: 0}
 --- !u!114 &176761069254740738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,19 +278,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddcd055a8b5f0b34e86c2027e55d75af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  missileFireTimer: 0
   bullet: {fileID: 5369544190819337616, guid: e53822f0180a7ef4db3a4876fefdac6e, type: 3}
-  bulletDamage: 2
   bulletCooldown: 0.5
   energyCharge: 1
   bulletSpeed: 0
-  missile: {fileID: 0}
-  missileDamage: 0
-  missileRange: 0
-  missileCooldown: 0
-  eneryCost: 0
-  accelerateSpeed: 0
-  maxSpeed: 0
-  maxTurnAngle: 0
+  missile: {fileID: 6797577788612636771, guid: f9d74fec8937e974c96ddbd42b6ed067, type: 3}
+  missileCooldown: 1
+  energyCost: 10
 --- !u!114 &9004695759960650502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,3 +298,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 098f32d73aeb35346aac0a1c92905acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &6483212777860288085
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547829488507679289}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33a37618de9ea8147858663c6819b537, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

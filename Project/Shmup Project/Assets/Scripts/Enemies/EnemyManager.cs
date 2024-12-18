@@ -58,11 +58,14 @@ public class EnemyManager : MonoBehaviour
                 }
 
                 //Instantiate the enemy as a child of Enemy Manager.
-                GameObject.Instantiate(
+                GameObject newEnemy = 
+                    GameObject.Instantiate(
                     enemy.Prefab,
                     spawnPosition,
                     transform.rotation,
                     transform);
+
+                newEnemy.GetComponent<EnemyStatus>().IsBoss = enemy.IsBoss;
 
                 //Reset the spawn timer to be the interval.
                 enemy.SpawnTimer = enemy.SpawnInterval;

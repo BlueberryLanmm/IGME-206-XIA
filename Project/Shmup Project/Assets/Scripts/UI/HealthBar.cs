@@ -39,10 +39,13 @@ public class HealthBar : MonoBehaviour
 
     private void Update()
     {
+        //The background bar is for lose hp indication
+        //Its update will be delayed.
         if (isBackground)
         {
             UpdateBackground();
         }
+        //The front bar is the realtime update of player health.
         else
         {
             UpdateHeight();
@@ -51,7 +54,7 @@ public class HealthBar : MonoBehaviour
 
     private void UpdateHeight()
     {
-        updateTimer -= Time.deltaTime;
+        updateTimer -= Time.unscaledDeltaTime;
 
         //The current health percentage
         float ratio = (float)playerStatus.Health / playerStatus.MaxHealth;
@@ -66,18 +69,16 @@ public class HealthBar : MonoBehaviour
 
     private void UpdateBackground()
     {
-        updateTimer -= Time.deltaTime;
+        updateTimer -= Time.unscaledDeltaTime;
 
         //The current health percentage
         float ratio = (float)playerStatus.Health / playerStatus.MaxHealth;
         newHeight = ratio * originalHeight;
 
+        //Delay the update of background bar.
         if (Mathf.Abs(newHeight - currentHeight) < 0.5f)
         {
-            if (isBackground)
-            {
-                updateTimer = 0.5f;
-            }
+            updateTimer = 0.5f;
         }
 
         if (updateTimer < 0)

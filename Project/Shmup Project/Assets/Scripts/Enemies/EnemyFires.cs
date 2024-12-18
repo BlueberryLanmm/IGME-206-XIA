@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
+/// <summary>
+/// This is a parent class for enemies' fire type.
+/// </summary>
 public abstract class EnemyFires : MonoBehaviour
 {
     //More fields required in children classes.
@@ -15,12 +19,9 @@ public abstract class EnemyFires : MonoBehaviour
     private bool isCounting = true;
     private float fireTimer;
 
-    protected SpriteRenderer enemyBoxRenderer;
-
-
     private void Awake()
     {
-        enemyBoxRenderer = GetComponent<SpriteRenderer>();
+
     }
 
     protected virtual void Start()
@@ -30,6 +31,7 @@ public abstract class EnemyFires : MonoBehaviour
 
     private void Update()
     {
+        //Fire missile whenever a countdown is finished.
         if (isCounting)
         {
             fireTimer -= Time.deltaTime;
@@ -45,7 +47,7 @@ public abstract class EnemyFires : MonoBehaviour
     protected abstract void FireMissiles();
 
 
-    //Method to manage all fire types for bosses.
+    //Method to manage all fire types for bosses. Not used currently.
     public void ResetCounting(
         [Tooltip("To start or stop counting.")]bool isCounting, 
         [Tooltip("Set the ratio for countdown remains (0-1).")]float countdownRatio)

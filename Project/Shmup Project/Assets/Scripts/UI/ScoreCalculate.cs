@@ -32,6 +32,7 @@ public class ScoreCalculate : MonoBehaviour
         UpdateScore();
     }
 
+    //Update the score smoothly using lerp.
     private void UpdateScore()
     {
         newScore = playerStatus.Score;

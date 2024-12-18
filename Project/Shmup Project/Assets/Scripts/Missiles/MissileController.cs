@@ -5,6 +5,8 @@ using UnityEngine;
 public abstract class MissileController : MonoBehaviour
 {
     [SerializeField]
+    private float radius;
+    [SerializeField]
     private int damage;
     [SerializeField]
     private float startSpeed;
@@ -177,6 +179,12 @@ public abstract class MissileController : MonoBehaviour
         //For enemy missiles, find player when aim the first time.
         if (gameObject.CompareTag("EnemyMissile"))
         {
+            if (player == null)
+            {
+                targets = null;
+                return;
+            }
+
             if (targets == null)
             {
                 targets = new Transform[1];
@@ -205,10 +213,12 @@ public abstract class MissileController : MonoBehaviour
                 continue;
             }
 
-            float missileRight = spriteRenderer.bounds.max.x;
-            float missileLeft = spriteRenderer.bounds.min.x;
-            float missileTop = spriteRenderer.bounds.max.y;
-            float missileButton = spriteRenderer.bounds.min.y;
+            //The missile bounding-box is modified to be a square
+            //so that it will not be influenced by rotation.
+            float missileRight = transform.position.x + radius;
+            float missileLeft = transform.position.x - radius;
+            float missileTop = transform.position.y + radius;
+            float missileButton = transform.position.y - radius;
 
             float targetRight = targetRenderer.bounds.max.x;
             float targetLeft = targetRenderer.bounds.min.x;
@@ -248,4 +258,10 @@ public abstract class MissileController : MonoBehaviour
         }
     }
     #endregion
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
 }

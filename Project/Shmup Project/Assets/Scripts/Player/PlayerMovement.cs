@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     private float camRight;
     private float camTop;
     private float camButton;
-    [SerializeField]
     private Camera camera;
 
     //Renderer parameters
