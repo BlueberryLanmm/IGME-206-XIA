@@ -9,9 +9,9 @@
 
 -   Camera Orientation: Topdown view.
 -   Camera Movement: Fixed camera. Background and objects scroll downward with the level.
--   Player Health: Player will have several lives.
+-   Player Health: Player has a health bar.
 -   End Condition: Defeating a stronger boss at the level end, or die before that.
--   Scoring: Player will get score according to the enemies they kill.
+-   Scoring: Player will get score according to the enemies they kill and the time they live.
 
 ### Game Description
 
@@ -29,7 +29,7 @@ and staying alive until the end.
     -   Right: D or Right
 -   Fire: 
     - Automatically fire for ship guns.          
-    - L-Shift fire for special missiles (need to be reloaded by gun fire hit).
+    - Space to fire special missiles (when energy is fully charged by gun fire hit).
 
 ### Enemies
 -   Small ship: enemy with fast movement, low HP and normal gun fire.
@@ -39,15 +39,17 @@ and staying alive until the end.
 
 ## You Additions
 
--   A boss fight at the end of the level is expected.
--   Art assets are expected to be originally made.
+-   A boss fight at the end of the level.
+-   Art assets are all originally made.
+-   More types of missiles and enemies.
 
 ## Sources
 
 
 ## Known Issues
 
-No known issues.
+-   Player missiles have a range damage, but currently the range is not visually indicated.
+-   Retry function not yet implemented. Restarting the scene needed to retry.
 
 ### Requirements not completed
 
