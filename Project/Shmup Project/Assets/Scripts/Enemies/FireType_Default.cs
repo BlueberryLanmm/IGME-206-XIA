@@ -10,7 +10,7 @@ public class FireType_Default : EnemyFires
     protected override void FireMissiles()
     {
         Vector3 firePosition = 
-            transform.position + transform.up;
+            transform.position + 0.5f * transform.up;
 
         GameObject.Instantiate(
             missile,

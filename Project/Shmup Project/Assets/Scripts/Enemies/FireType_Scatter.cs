@@ -42,7 +42,7 @@ public class FireType_Scatter : EnemyFires
             GameObject newMissile =
                 GameObject.Instantiate(
                 missile,
-                transform.position + direction,
+                transform.position + 0.5f * direction,
                 transform.rotation);
 
             newMissile.transform.up = direction;

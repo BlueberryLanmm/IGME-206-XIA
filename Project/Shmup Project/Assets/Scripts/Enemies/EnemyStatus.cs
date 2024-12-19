@@ -7,7 +7,6 @@ public class EnemyStatus : MonoBehaviour
     [Header("Basic Properties")]
     private int health;
 
-    [SerializeField]
     private bool isBoss;
     [SerializeField]
     private int maxHealth;
@@ -18,6 +17,7 @@ public class EnemyStatus : MonoBehaviour
 
     private bool hasCrash;
 
+    private EnemyManager enemyManager;
     private SpriteRenderer spriteRenderer;
     private GameObject player;
     private PlayerStatus playerStatus;
@@ -45,6 +45,7 @@ public class EnemyStatus : MonoBehaviour
 
     private void Awake()
     {
+        enemyManager = transform.parent.GetComponent<EnemyManager>();
         spriteRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
 
         //Player reference
@@ -123,7 +124,8 @@ public class EnemyStatus : MonoBehaviour
 
         if (isBoss)
         {
-            playerStatus.HasWon = true;
+            playerStatus.Health += playerStatus.MaxHealth;
+            enemyManager.LevelUp();
         }
 
         GameObject.Destroy(gameObject);

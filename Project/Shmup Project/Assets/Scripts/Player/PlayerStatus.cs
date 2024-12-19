@@ -8,7 +8,7 @@ public class PlayerStatus : MonoBehaviour
     private int health = 0;
     private float score = 0;
     private float energy = 0;
-    private bool isInvincible = false;
+    private int invincibleIndex = 0;
     private bool hasWon = false;
 
     [SerializeField]
@@ -52,6 +52,13 @@ public class PlayerStatus : MonoBehaviour
         get { return maxEnergy; }
     }
 
+    public int InvincibleIndex
+    {
+        get { return invincibleIndex; }
+
+        set { invincibleIndex = value; }
+    }
+
     public bool HasWon
     { 
         get { return hasWon; } 
@@ -73,6 +80,7 @@ public class PlayerStatus : MonoBehaviour
         health = MaxHealth;
         energy = maxEnergy;
         score = 0;
+        invincibleIndex = 0;
 
         animator.enabled = false;
     }
@@ -100,7 +108,7 @@ public class PlayerStatus : MonoBehaviour
 
     public void ReceiveDamage(int damage)
     {
-        if (!isInvincible)
+        if (invincibleIndex == 0)
         {
             health -= damage;
             StartCoroutine(Blink());
@@ -114,7 +122,7 @@ public class PlayerStatus : MonoBehaviour
         {
             Time.timeScale = 0f;
 
-            if (!isInvincible)
+            if (invincibleIndex == 0)
             {
                 StartCoroutine(Blink());
             }
@@ -123,14 +131,14 @@ public class PlayerStatus : MonoBehaviour
         if (hasWon)
         {
             Time.timeScale = 0f;
-            isInvincible = true;
+            invincibleIndex += 1;
             animator.enabled = true;
         }
     }
 
     private IEnumerator Blink()
     {
-        isInvincible = true;
+        invincibleIndex += 1;
 
         for (int i = 0; i < 3; i++)
         {
@@ -148,6 +156,6 @@ public class PlayerStatus : MonoBehaviour
             GameObject.Destroy(gameObject);
         }
 
-        isInvincible = false;
+        invincibleIndex -= 1;
     }
 }

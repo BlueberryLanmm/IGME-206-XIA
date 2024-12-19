@@ -12,9 +12,6 @@ GameObject:
   - component: {fileID: 1099873074330448239}
   - component: {fileID: 745055312922046497}
   - component: {fileID: -5187160108020492249}
-  - component: {fileID: 5288791180029325187}
-  - component: {fileID: 6796644875131469450}
-  - component: {fileID: 263782584974122254}
   m_Layer: 0
   m_Name: BossShip_A
   m_TagString: Enemy
@@ -36,6 +33,9 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1085362693595278876}
+  - {fileID: 3528170706257380196}
+  - {fileID: 2632644450803133772}
+  - {fileID: 8335617338554647674}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1099873074330448239
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d396ef6c6233eb5499b27ffbfee2ddd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isBoss: 1
+  isBoss: 0
   maxHealth: 100
   scoreBonus: 10000
   energyBonus: 0
@@ -120,51 +120,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startSpeed: 3
   stopTime: 2
-  fireTypes:
-  - {fileID: 5288791180029325187}
-  - {fileID: 263782584974122254}
---- !u!114 &5288791180029325187
+  fireTypes: []
+--- !u!1 &3370078463762266684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3528170706257380196}
+  - component: {fileID: 1880583145038306952}
+  m_Layer: 0
+  m_Name: Muzzle_Scatter_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3528170706257380196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370078463762266684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.34, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7351913851619016385}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1880583145038306952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605101700741982950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3313cb49218e804aa4fce43abd27e00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missile: {fileID: 5589794661260464851, guid: 25b677c14174f7545aac1e18ec616ae4, type: 3}
-  fireCooldown: 2
---- !u!114 &6796644875131469450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605101700741982950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3313cb49218e804aa4fce43abd27e00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missile: {fileID: 5080556180826420233, guid: 04fc44a05f86c8448b5ba54c7b0312a3, type: 3}
-  fireCooldown: 11
---- !u!114 &263782584974122254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605101700741982950}
+  m_GameObject: {fileID: 3370078463762266684}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f487ddc511e8f746acfcc888898e8b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   missile: {fileID: 5589794661260464851, guid: 25b677c14174f7545aac1e18ec616ae4, type: 3}
-  fireCooldown: 3
+  fireCooldown: 5
   missileAngle: 120
   missileNumber: 5
 --- !u!1 &3892486319884644406
@@ -251,3 +253,97 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &4862186666482053143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2632644450803133772}
+  - component: {fileID: 6776999351938260262}
+  m_Layer: 0
+  m_Name: Muzzle_Scatter_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2632644450803133772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4862186666482053143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.34, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7351913851619016385}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6776999351938260262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4862186666482053143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f487ddc511e8f746acfcc888898e8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missile: {fileID: 5589794661260464851, guid: 25b677c14174f7545aac1e18ec616ae4, type: 3}
+  fireCooldown: 5
+  missileAngle: 120
+  missileNumber: 5
+--- !u!1 &5480538666134763947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8335617338554647674}
+  - component: {fileID: 3527542726734423663}
+  m_Layer: 0
+  m_Name: Muzzle_Default_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8335617338554647674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480538666134763947}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7351913851619016385}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3527542726734423663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480538666134763947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3313cb49218e804aa4fce43abd27e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missile: {fileID: 5080556180826420233, guid: 04fc44a05f86c8448b5ba54c7b0312a3, type: 3}
+  fireCooldown: 11

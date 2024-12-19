@@ -1295,6 +1295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9109298817be041429b7c9ef855ec352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyLevel: 0
+  boss: {fileID: 0}
   enemies:
   - prefab: {fileID: 3992397872871620442, guid: 79c41a176f17a274da7372ff028e7a88, type: 3}
     isBoss: 0
@@ -1310,8 +1312,8 @@ MonoBehaviour:
     firstSpawnTime: 40
   - prefab: {fileID: 605101700741982950, guid: b8e77af815f7f484c8939ec611d4fc4c, type: 3}
     isBoss: 1
-    spawnInterval: 9999
-    firstSpawnTime: 90
+    spawnInterval: 10
+    firstSpawnTime: 0
 --- !u!1 &1893377512
 GameObject:
   m_ObjectHideFlags: 0

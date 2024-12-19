@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
+    [SerializeField]
+    private int EnemyLevel = 0;
+    [SerializeField]
+    private GameObject boss;
+
     //Manage enemy list.
     [SerializeField]
     private List<Enemy> enemies;
@@ -30,6 +35,7 @@ public class EnemyManager : MonoBehaviour
         //Reset the initial spawn wait time to be the first spawn time.
         foreach (Enemy enemy in enemies)
         {
+            enemy.SpawnInterval *= MathF.Pow(0.9f, EnemyLevel);
             enemy.SpawnTimer = enemy.FirstSpawnTime;
         }
     }
@@ -44,6 +50,11 @@ public class EnemyManager : MonoBehaviour
     {
         foreach (Enemy enemy in enemies)
         {
+            if (enemy.IsBoss && boss != null)
+            {
+                continue;
+            }
+
             enemy.SpawnTimer -= Time.deltaTime;
 
             if (enemy.SpawnTimer < 0)
@@ -67,10 +78,25 @@ public class EnemyManager : MonoBehaviour
 
                 newEnemy.GetComponent<EnemyStatus>().IsBoss = enemy.IsBoss;
 
+                if (enemy.IsBoss)
+                {
+                    boss = newEnemy;
+                }
+
                 //Reset the spawn timer to be the interval.
                 enemy.SpawnTimer = enemy.SpawnInterval;
             }
         }
+    }
+
+    public void LevelUp()
+    {
+        foreach (Enemy enemy in enemies)
+        {
+            enemy.SpawnInterval *= 0.9f;
+        }
+
+        EnemyLevel += 1;
     }
 }
 

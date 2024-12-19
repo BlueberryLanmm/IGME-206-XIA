@@ -37,12 +37,6 @@ public class GameOverMenu : MonoBehaviour
         //If player health down to 0, enable lost menu.
         if (playerStatus.Health <= 0)
         {
-            loseMenu.gameObject.SetActive(true);
-        }
-
-        //If player killed the boss, enable win menu.
-        if (playerStatus.HasWon)
-        {
             winMenu.gameObject.SetActive(true);
             scoreText.text = ((int)(playerStatus.Score)).ToString();
         }

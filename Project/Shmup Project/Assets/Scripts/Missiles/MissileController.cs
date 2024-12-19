@@ -94,7 +94,7 @@ public abstract class MissileController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         //Initialize movement parameters
         position = transform.position;
@@ -157,7 +157,7 @@ public abstract class MissileController : MonoBehaviour
     {
         Vector3 newPosition = transform.position;
 
-        //Clear the velocity when touch the wall.
+        //Destroy the missile when complete go outside the screen.
         if (newPosition.x < camLeft ||
             newPosition.x > camRight ||
             newPosition.y < camButton ||
@@ -170,11 +170,12 @@ public abstract class MissileController : MonoBehaviour
 
     protected virtual void Update()
     {
+        FindTarget();
         DetectCollision();
     }
 
     #region Hitting Target
-    private void DetectCollision()
+    private void FindTarget()
     {
         //For enemy missiles, find player when aim the first time.
         if (gameObject.CompareTag("EnemyMissile"))
@@ -182,6 +183,7 @@ public abstract class MissileController : MonoBehaviour
             if (player == null)
             {
                 targets = null;
+                targetBoxRenderers = null;
                 return;
             }
 
@@ -200,7 +202,15 @@ public abstract class MissileController : MonoBehaviour
         {
             //Get all children of enemyManager as the targets.
             targets = enemyManager.GetComponentsInChildren<Transform>();
-            targetBoxRenderers = enemyManager.GetComponentsInChildren<SpriteRenderer>();            
+            targetBoxRenderers = enemyManager.GetComponentsInChildren<SpriteRenderer>();
+        }
+    }
+
+    private void DetectCollision()
+    {
+        if (targetBoxRenderers == null)
+        {
+            return;
         }
 
         //Use the AABB collision detection, and return the detected target.
@@ -252,7 +262,7 @@ public abstract class MissileController : MonoBehaviour
 
         if (gameObject.CompareTag("PlayerMissile"))
         {
-            Debug.Log("Missile hit enemy!");
+            //Debug.Log("Missile hit enemy!");
             target.GetComponent<EnemyStatus>().ReceiveDamage(Damage);
             GameObject.Destroy(gameObject);
         }
